@@ -1,0 +1,448 @@
+{
+  "vtex.menu@2.x:menu#contacto": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#contacto",
+      "rich-text#tel",
+      "rich-text#email"
+    ]
+  },
+  "menu-item#contacto": {
+    "props": {
+      "blockClass":"titmenu",
+      "id": "menu-item-contacto",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Contáctanos",
+        "text": "Contáctanos"
+      }
+    }
+  },
+  "rich-text#tel":{
+    "props":{
+      "text": "(33) 3126 5001",
+      "blockClass":"txtfooter"
+    }
+  },
+  "rich-text#email":{
+    "props":{
+      "text": "soporte@dipicodeocc.com",
+      "blockClass":"txtfooter"
+    }
+  },
+
+
+  "vtex.menu@2.x:menu#informacion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#info",
+      "menu-item#faqs",
+      "menu-item#garantia",
+      "menu-item#envios"
+    ]
+  },
+  "menu-item#info": {
+    "props": {
+      "blockClass":"titmenu",
+      "id": "menu-item-info",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "noFollow": true,
+        "tagTitle": "Información",
+        "text": "Información"
+      }
+    }
+  },
+
+  "menu-item#faqs": {
+    "props": {
+      "id": "menu-item-faqs",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/preguntas-frecuentes",
+        "noFollow": true,
+        "tagTitle": "Preguntas frecuentes",
+        "text": "Preguntas frecuentes"
+      }
+    }
+  },
+
+  "menu-item#garantia": {
+    "props": {
+      "id": "menu-item-garantia",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/garantia",
+        "noFollow": true,
+        "tagTitle": "Garantía",
+        "text": "Garantía"
+      }
+    }
+  },
+
+  "menu-item#envios": {
+    "props": {
+      "id": "menu-item-envio",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/envios",
+        "noFollow": true,
+        "tagTitle": "Envíos",
+        "text": "Envíos"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#legales": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#legales",
+      "menu-item#terminos",
+      "menu-item#politicas",
+      "menu-item#aviso"
+    ]
+  },
+  "menu-item#legales": {
+    "props": {
+      "blockClass":"titmenu",
+      "id": "menu-item-legales",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "noFollow": true,
+        "tagTitle": "Legales",
+        "text": "Legales"
+      }
+    }
+  },
+
+  "menu-item#terminos": {
+    "props": {
+      "id": "menu-item-terminos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/terminos-y-condiciones",
+        "noFollow": true,
+        "tagTitle": "Términos y condiciones",
+        "text": "Términos y condiciones"
+      }
+    }
+  },
+
+  "menu-item#politicas": {
+    "props": {
+      "id": "menu-item-politicas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/politicas",
+        "noFollow": true,
+        "tagTitle": "Políticas",
+        "text": "Políticas"
+      }
+    }
+  },
+
+  "menu-item#aviso": {
+    "props": {
+      "id": "menu-item-aviso",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/aviso-de-privacidad",
+        "noFollow": true,
+        "tagTitle": "Aviso de privacidad",
+        "text": "Aviso de privacidad"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#empresa": {
+    "props": {
+      "blockClass":"titmenu",
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#empresa",
+      "menu-item#noticias",
+      "menu-item#blog"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#footer-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#clothing-mobile",
+      "menu-item#decoration-mobile",
+      "menu-item#sale-mobile"
+    ]
+  },
+
+  "menu-item#clothing-mobile": {
+    "props": {
+      "id": "menu-item-category-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/d",
+        "noFollow": true,
+        "tagTitle": "Clothing",
+        "text": "Clothing"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#clothing"]
+  },
+  "vtex.menu@2.x:submenu.accordion#clothing": {
+    "children": ["vtex.menu@2.x:menu#clothing-accordion"]
+  },
+
+  "vtex.menu@2.x:menu#clothing-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+    ]
+  },
+
+  "menu-item#decoration-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Decoration",
+        "text": "Decoration"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#decoration"]
+  },
+  "vtex.menu@2.x:submenu.accordion#decoration": {
+    "children": ["vtex.menu@2.x:menu#footer-decoration-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#footer-decoration-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+    ]
+  },
+
+  "menu-item#sale-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Sale",
+        "text": "Sale"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#sale"]
+  },
+  "vtex.menu@2.x:submenu.accordion#sale": {
+    "children": ["vtex.menu@2.x:menu#footer-sale-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#footer-sale-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+    ]
+  },
+  "menu-item#empresa": {
+    "props": {     
+      "blockClass":"titmenu",
+      "id": "menu-item-category-empresa",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "noFollow": true,
+        "tagTitle": "Empresa",
+        "text": "Empresa"
+      }
+    }
+  },
+
+  "menu-item#noticias": {
+    "props": {     
+      "id": "menu-item-category-noticias",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/d",
+        "noFollow": true,
+        "tagTitle": "Noticias",
+        "text": "Noticias"
+      }
+    }
+  },
+
+  "menu-item#blog": {
+    "props": {
+      "id": "menu-item-blog",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/shorts",
+        "noFollow": false,
+        "tagTitle": "Blog",
+        "text": "Blog"
+      }
+    }
+  },
+
+  
+  "vtex.menu@2.x:menu#siguenos": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#titsm"
+     
+    ]
+  },"menu-item#titsm": {
+    "props": {
+      "blockClass":"titmenu",
+      "id": "menu-item-titsm",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "noFollow": false,
+        "tagTitle": "Síguenos",
+        "text": "Síguenos"
+      }
+    },
+    "children":[
+      "flex-layout.row#redes"
+    ]
+  },
+  
+  
+  
+  "flex-layout.row#redes":{
+    "children":[
+      "flex-layout.col#fb",
+      "flex-layout.col#ig"
+    ],"props":{
+      "preserveLayoutOnMobile": true,
+      "blockClass":"spaceredes"
+    }
+  },
+  "flex-layout.col#fb":{
+    "children":[
+      "image#facebook"
+    ],
+    "props":{
+      "horizontalAlign":"center",
+      "width":"50%"
+    }
+  },
+  "image#facebook":{
+    "props":{
+      "src": "assets/fb.png",
+      "link": "https://www.facebook.com/PinturasAcuario.Sika"
+    }
+  },
+
+  "flex-layout.col#ig":{
+    "children":[
+      "image#instagram"
+    ],"props":{
+      "horizontalAlign":"center",
+      "width":"50%"
+    }
+  },
+  "image#instagram":{
+    "props":{
+      "src":"assets/ig.png",
+      "link":"https://www.instagram.com/dipicodeocc/?hl=es-la"
+    }
+  },
+
+
+  "vtex.menu@2.x:menu#aceptamosm": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#titaceptamos"
+     
+    ]
+  },"menu-item#titaceptamos": {
+    "props": {
+      "blockClass":"tfm",
+      "id": "menu-item-titsm",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "noFollow": false,
+        "tagTitle": "Aceptamos",
+        "text": "Aceptamos"
+      }
+    },
+    "children":[
+      "flex-layout.row#tarjeta"
+    ]
+  },"flex-layout.row#tarjeta":{
+    "children":[
+      "flex-layout.col#visam",
+      "flex-layout.col#mcm"
+    ],"props":{
+      "preserveLayoutOnMobile":true,
+      "blockClass":"spaceredes"
+    }
+  },"flex-layout.col#visam":{
+    "children":[
+      "image#visa"
+    ],"props":{
+      "horizontalAlign":"center"
+    }
+  },"flex-layout.col#mcm":{
+    "children":[
+      "image#mc"
+    ],"props":{
+      "horizontalAlign":"center"
+    }
+  }
+
+
+  
+
+
+}

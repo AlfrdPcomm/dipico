@@ -1,0 +1,57 @@
+{
+    "vtex.menu@2.x:menu#menu-alfrd":{
+        "props": {
+            "experimentalOptimizeRendering": true
+          },
+        "children":[
+            "menu-item#Espacio",
+            "menu-item#TipoDePintura",
+            "menu-item#SolucionesAlaConstruccion",
+            "menu-item#Marca"
+        ]
+    },
+
+    "menu-item#Espacio":{
+        "props":{
+            "type": "custom",
+            "href": "/Espacio",
+            "text": "Espacio",
+            "blockClass":"hmen"
+        }
+    },
+
+    "menu-item#TipoDePintura":{
+        "props":{
+            "type": "custom",
+            "href": "/TipoDePintura",
+            "text": "Tipo de pintura",
+            "blockClass":"hmen"
+        }
+    },
+
+    "menu-item#SolucionesAlaConstruccion":{
+        "props":{
+            "type": "custom",
+            "href": "/SolucionesAlaConstruccion",
+            "text": "Soluciones a la construccion",
+            "blockClass":"hmen"
+        }
+    },
+
+    "menu-item#Marca":{
+        "props":{
+            "type": "custom",
+            "href": "/Marca",
+            "text": "Marca",
+            "blockClass":"hmen"
+        }
+    }
+
+   
+
+    
+
+
+
+
+}

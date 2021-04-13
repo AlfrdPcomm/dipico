@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Raleway-Regular';
+    src: url(assets/fonts/Raleway-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Arlon-SemiBold';
+    src: url(assets/fonts/Arlon-SemiBold.woff), url(assets/fonts/Arlon-SemiBold.ttf);
+    font-weight: bold;
+}

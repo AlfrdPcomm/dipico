@@ -1,0 +1,209 @@
+{
+  "store.home": {
+    "blocks": [
+      "list-context.image-list#principal",
+      /* You can make references to blocks defined in other files.
+       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+      "__fold__.experimentalLazyAssets",
+      "flex-layout.row#deals",
+      "rich-text#titulo-terecomendamos",
+      "flex-layout.row#terecomendamos",
+      "list-context.image-list#secundario",
+      "rich-text#titulo-queespacio",
+      "list-context.image-list#queespacio",
+      "flex-layout.row#newsletter",
+      "back-to-top-button"
+    ]
+  },
+
+  "list-context.image-list#principal": {
+    "children": ["slider-layout#principal-images"],
+    "props": {
+      "height": 720,
+      "images": [
+        {
+          "image": "assets/bannerslider.png",
+          "mobileImage": "assets/bannerslider.png"
+        },
+        {
+          "image": "assets/bannerslider.png",
+          "mobileImage": "assets/bannerslider.png"
+        },
+        {
+          "image": "assets/bannerslider.png",
+          "mobileImage": "assets/bannerslider.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#principal-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+
+  "rich-text#titulo-terecomendamos": {
+    "props": {
+      "text": "## Te recomendamos",
+      "blockClass": "shelfTitle"
+    }
+  },
+
+  "flex-layout.row#terecomendamos": {
+    "children": ["list-context.product-list#demo1"]
+  },
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+  "list-context.image-list#secundario": {
+    "children": ["slider-layout#secundario-images"],
+    "props": {
+      "height": 720,
+      "images": [
+        {
+          "image": "assets/bannerqueremos.png",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        }
+      ]
+    }
+  },
+  "slider-layout#secundario-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+
+  "rich-text#titulo-queespacio": {
+    "props": {
+      "text": "## ¿Qué espacio vas a cambiar?",
+      "blockClass": "shelfTitle"
+    }
+  },
+
+  "list-context.image-list#queespacio": {
+    "children": ["slider-layout#queespacio-images"],
+    "props": {
+      "height": 720,
+      "images": [
+        {
+          "image": "assets/interiores.png",
+          "mobileImage": "assets/interiores.png"
+        },
+        {
+          "image": "assets/restaurar.png",
+          "mobileImage": "assets/restaurar.png"
+        },
+        {
+          "image": "assets/impermeabilizar.png",
+          "mobileImage": "assets/impermeabilizar.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#queespacio-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "onlyDesktop",
+      "blockClass": "queespacio",
+      "fullWidth": false
+    }
+  },
+
+  "info-card#home": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
+    }
+  },"flex-layout.row#newsletter":{
+    "children":[
+      "flex-layout.col#formatnl"      
+    ],"props":{
+      "fullWidth":false,
+      "blockClass":"rownews"
+    }
+  },"flex-layout.col#formatnl":{
+    "children":[
+      "rich-text#titnl",
+      "newsletter-form"
+    ], "props":{
+      "horizontalAlign":"center"
+    }
+  },
+  
+  "rich-text#titnl":{
+    "props":{
+      "text":"¿Te gustaría saber sobre colores y tendencias?",
+      "blockClass":"ns",
+      "font": "t-heading-2"
+    }
+  },
+  "newsletter-form":{
+    "children":[
+      "newsletter-input-email",
+      "newsletter-submit"
+    ],"props":{
+      "blockClass":"news"
+    }
+  }, "newsletter-input-email":{
+    "props":{
+      "placeholderText": "Ingresa tu e-mail",
+      "blockClass":"placeh"
+    }
+  },"newsletter-submit":{
+    "props":{
+      "submitButtonLabel": "Enviar"
+    }
+  },
+
+
+  
+
+  "back-to-top-button":{
+       "props":{
+         "displayThreshold": 800,
+         "display":"caret-icon"
+       }
+     }
+}

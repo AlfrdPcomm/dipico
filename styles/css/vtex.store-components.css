@@ -1,0 +1,273 @@
+.notificationBarContainer {
+  background-color: #00AEB2;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.infoCardContainer--info-card-home {
+  max-width: 1520px;
+  margin: 0 auto;
+  background-color: #00AEB2;
+  padding: 0px;
+}
+
+.newsletter {
+  background-color: #00AEB2;
+  max-width: 1528px;
+  margin: 100px auto 10px;
+}
+
+.newsletter .container {
+  padding: 60px 10px;
+}
+
+.label {
+  color: #fff;
+  font-size: 26px;
+}
+
+.inputGroup {
+  padding-bottom: 4px;
+  display: flex;
+  color: #fff;
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators) {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
+  color: #fff;
+  font-size: 16px;
+}
+
+.inputGroup :global(.vtex-button) {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  margin-right: -24px;
+}
+
+.buttonContainer {
+  padding-top: 0px;
+}
+
+.imageElement--storePrint {
+  max-height: 300px;
+  margin-bottom: 20px;
+}
+
+.skuSelectorContainer {
+  margin: 1rem 0;
+}
+
+:global(.vtex-slider-layout-0-x-slideChildrenContainer--queespacio) {
+  padding: 7px;
+}
+
+:global(.vtex-search-result-3-x-galleryTitle--layout){
+  color: #034094;
+}
+
+@media only screen and (min-width: 640px) {
+  .newsletter .container {
+    padding: 30px;
+  }
+
+  .label {
+    font-size: 40px;
+  }
+
+  .infoCardContainer--info-card-home .infoCardTextContainer {
+    width: 30%;
+  }
+
+  .infoCardContainer--info-card-home .infoCardImageContainer {
+    width: 70%;
+  }
+
+  .imageElement--storePrint {
+    margin-bottom: 0px;
+    max-height: 600px;
+  }
+}
+
+.productImagesContainer--quickview .carouselContainer {
+  justify-content: flex-start;
+}
+
+.productImagesContainer--quickview .productImageTag {
+  object-fit: cover !important;
+}
+
+.productImagesContainer--quickview .carouselGaleryThumbs {
+  display: none;
+}
+
+.productImagesContainer--quickview .carouselGaleryCursor {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.productNameContainer {
+  color: #3f3f40;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--destalles){
+  background-color: #034094;
+  padding: 10px;
+}
+
+:global(.vtex-rich-text-0-x-container--titinst),
+:global(.vtex-rich-text-0-x-paragraph--txtinst),
+:global(.vtex-rich-text-0-x-heading-level-3){
+  color: #000000;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--txtinstcont){
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent),
+:global(.vtex-numeric-stepper__plus-button__text),
+:global(.vtex-numeric-stepper__minus-button__text){
+  color:#ffffff;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--destalles){
+  font-size: 20px;
+}
+
+:global(.vtex-menu-2-x-menuContainer--itemdetail),
+:global(.vtex-menu-2-x-submenuAccordion--ificha){
+  padding: 25px;
+}
+
+:global(.vtex-reviews-and-ratings-2-x-reviewsHeading){
+  background-color: #FF8542;
+  color: #FFFFFF;
+  padding: 5px;
+}
+
+:global(.vtex-store-components-3-x-buttonContainer--ns)
+  :global(.vtex-button__label){
+    color:#034094;
+    font-weight: 600;
+  }
+
+ :global(.vtex-store-drawer-0-x-menuIcon){
+   color: #034094;
+ }
+
+
+:global(.vtex-menu-2-x-styledLinkContent--tfm){
+  font-weight: 600;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--spaceredes ){
+  padding-top: 15px;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--titacep),
+:global(.vtex-rich-text-0-x-heading--ns),
+:global(.vtex-rich-text-0-x-wrapper--ns){
+  color: #FFFFFF;
+  font-weight: 600;
+}
+
+:global(.vtex-numeric-stepper__plus-button),
+:global(.vtex-numeric-stepper__minus-button),
+:global(.vtex-flex-layout-0-x-flexRowContent--rownews){
+  background-color: #00AEB2;
+}
+
+
+:global(.vtex-store-components-3-x-productNameContainer)
+  :global(.vtex-store-components-3-x-productBrand){
+  font-family: Arlon-SemiBold;
+  font-size: 36px;
+}
+
+
+:global(.vtex-store-newsletter-1-x-formSubmitContainer),
+:global(.vtex-rich-text-0-x-wrapper--ns){
+  text-align: center;
+}
+
+:global(.vtex-store-newsletter-1-x-formSubmitContainer)
+  :global(.vtex-button)
+    :global(.vtex-button__label){
+      color: #034094;
+      font-weight: 600;
+    }
+
+:global(.vtex-store-newsletter-1-x-emailInputContainer)
+  :global(.vtex-styleguide-9-x-input)::-webkit-input-placeholder{
+  text-align: center;
+  color:#4774b1;
+}
+
+:global(.vtex-store-newsletter-1-x-emailInputContainer)
+  :global(.vtex-input-prefix__group)
+    :global(.vtex-styleguide-9-x-input){
+      width: 325px;
+}
+
+:global(.vtex-store-newsletter-1-x-formSubmitContainer){
+  margin-top: 15px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--rownews){
+  margin-bottom: 30px;
+  margin-top: 25px;
+  padding-bottom: 25px;
+}
+
+:global(.vtex-store-components-3-x-autoCompleteOuterContainer)
+  :global(.vtex-input-prefix__group)
+    :global(.vtex-styleguide-9-x-input)::-webkit-input-placeholder{
+      color: #00AEB2;
+}
+:global(.vtex-store-components-3-x-autoCompleteOuterContainer)
+  :global(.vtex-input-prefix__group)
+    :global(.vtex-styleguide-9-x-input),
+:global(.vtex-store-components-3-x-autoCompleteOuterContainer)
+  :global(.vtex-input-prefix__group)
+    :global(.vtex-input__suffix){
+    background-color: transparent;
+}
+
+:global(.vtex-store-components-3-x-autoCompleteOuterContainer)
+  :global(.vtex-input-prefix__group){
+    background-color: #f2f2f2;
+  }
+
+
+  :global(.vtex-breadcrumb-1-x-homeIcon),
+  :global(.vtex-breadcrumb-1-x-arrow),
+  :global(.vtex-breadcrumb-1-x-link--1) {
+    color: #C897A5;
+  }
+
+:global(.vtex-product-highlights-2-x-productHighlightText)::before{
+  content: url("assets/olitas.png");
+}
+
+:global(.vtex-menu-2-x-styledLink--hmen)
+  :global(.vtex-menu-2-x-styledLinkContent){
+    color: #000000;
+    font-weight: 600;
+}
+
+
+
+
+    

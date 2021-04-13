@@ -1,0 +1,35 @@
+{
+    "store.custom#terminos-y-condiciones":{
+        "blocks":[
+            "flex-layout.row#tituloterm",
+            "flex-layout.row#contterm"
+        ]        
+    },
+
+    "flex-layout.row#tituloterm":{
+        "title":"Título",
+        "children":[
+            "rich-text#titinst"
+        ]
+    },"rich-text#titinst":{
+        "title":"Contenido título",
+        "props":{
+            "text":"# Terminos y Condiciones",
+            "blockClass":"titinst",
+            "textPosition":"CENTER"
+        }
+    },"flex-layout.row#contterm":{
+        "title":"Contenido",
+        "children":[
+            "rich-text#continst"
+        ],"props":{
+            "blockClass":"txtinstcont"
+        }
+    },"rich-text#continst":{
+        "title":"Texto de Contenido ",
+        "props":{
+            "text":"Terminos y Condiciones",
+            "blockClass":"txtinst"
+        }
+    }
+}

@@ -1,0 +1,329 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer-1-desktop",
+      "flex-layout.row#footer-2-desktop"    ]
+  },
+  "flex-layout.row#footer-1-desktop": {
+    "children": [
+      "vtex.menu@2.x:menu#contacto",
+      "vtex.menu@2.x:menu#empresa",
+      "vtex.menu@2.x:menu#informacion",
+      "vtex.menu@2.x:menu#legales",
+      "footer-spacer",
+      "vtex.menu@2.x:menu#siguenos"
+    ],
+    "props": {
+      "blockClass": "menu-row",
+      "paddingTop": 6,
+      "paddingBottom": 3
+    }
+  },
+
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/vtexonline/"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/vtextruecloud/"
+        },
+        {
+          "name": "Twitter",
+          "url": "https://twitter.com/vtexonline"
+        },
+        {
+          "name": "Youtube",
+          "url": "https://www.youtube.com/user/VTEXTV"
+        }
+      ]
+    }
+  },
+
+  "flex-layout.row#footer-2-desktop": {
+    "children": [
+      "flex-layout.col#metodos",
+      "flex-layout.col#spacer",
+      "flex-layout.col#poweredby"
+    ],"props":{
+      "blockClass":"metodos",
+      "preserveLayoutOnMobile":true
+    }
+  },"flex-layout.col#metodos":{
+    "children":[
+      "flex-layout.row#titmp",
+      "flex-layout.row#metsp"
+    ],"props":{
+      "width":"10%",
+      "blockClass":"mepa"
+    }
+  },"flex-layout.row#titmp":{
+    "children":[
+      "rich-text#titmp"
+    ]
+  },"rich-text#titmp":{
+    "props":{
+      "text":"Aceptamos:",
+      "blockClass":"titmp"
+    }
+  },
+  
+  "flex-layout.row#metsp":{
+    "children":[
+      "flex-layout.col#visa",
+      "flex-layout.col#masterc"
+    ]
+  },"flex-layout.col#visa":{
+    "children":[
+      "image#visa"
+    ]
+  },"image#visa":{
+    "props":{
+      "src": "assets/visa.png"
+    }
+  },"flex-layout.col#masterc":{
+    "children":[
+      "image#mc"
+    ]
+  },"image#mc":{
+    "props":{
+      "src":"assets/mc.png" 
+    }
+  },"flex-layout.col#poweredby":{
+    "children":[
+      "flex-layout.row#pb"
+    ],"props":{
+      "width":"25%",
+      "blockClass":"pb"
+    }
+  },"flex-layout.row#pb":{
+    "children":[
+      "flex-layout.col#pc",
+      "flex-layout.col#vtex"
+    ]
+  },"flex-layout.col#pc":{
+    "children":[
+      "image#pc"
+    ],"props":{
+      "horizontalAlign": "center"
+    }
+  },"image#pc":{
+    "props":{
+      "src":"assets/pbpc.png"
+    }
+  },"flex-layout.col#vtex":{
+    "children":[
+      "image#pbv"
+    ],"props":{
+      "horizontalAlign": "center"
+    }
+  },"image#pbv":{
+    "props":{
+      "src":"assets/pbv.png"
+    }
+  },
+
+
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#1-footer-mobile",
+      "flex-layout.row#footer4-mobile"
+    ]
+  },
+  "flex-layout.row#footer4-mobile":{
+    "children":[
+      "flex-layout.col#pc",
+      "flex-layout.col#vtex"
+    ],"props":{
+      "preserveLayoutOnMobile":true
+    }
+  },
+
+
+
+  "flex-layout.row#2-footer-mobile": {
+    "children": ["flex-layout.col#footer-1-mobile"],
+    "props": {
+      "blockClass": "payment-methods",
+      "paddingTop": 4,
+      "paddingBottom": 4
+    }
+  },
+  "flex-layout.col#footer-1-mobile": {
+    "children": [
+      "accepted-payment-methods",
+      "social-networks"    ],
+    "props": {
+      "blockClass": "payment-methods",
+      "paddingTop": 4,
+      "paddingBottom": 4,
+      "rowGap": 4
+    }
+  },
+  "flex-layout.row#1-footer-mobile": {
+    "props": {
+      "paddingTop": 4,
+      "paddingBottom": 4
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menu-mobile"
+    ]
+  },
+
+
+  "vtex.menu@2.x:menu#menu-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "desc"
+    },
+    "children": [
+      "menu-item#contatco-m",
+      "menu-item#empresa-m",
+      "menu-item#info-m",
+      "menu-item#legales-m",
+      "vtex.menu@2.x:menu#siguenos",
+      "vtex.menu@2.x:menu#aceptamosm"
+    ]
+  },
+
+  "menu-item#contatco-m": {
+    "props": {
+      "id": "item-cm",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "noFollow": true,
+        "tagTitle": "Contáctanos",
+        "text": "Contáctanos"
+      },
+      "blockClass":"tfm"
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#contactom"]
+  },
+  "vtex.menu@2.x:submenu.accordion#contactom": {
+    "children": ["vtex.menu@2.x:menu#contactom"],
+    "props":{
+      "blockClass":"adetalle"
+    }
+  },
+  "vtex.menu@2.x:menu#contactom": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass":"itemdet"
+    },
+    "children": [
+      "rich-text#tel",
+      "rich-text#email"
+    ]
+  },
+
+  "menu-item#empresa-m": {
+    "props": {
+      "id": "item-em",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "noFollow": true,
+        "tagTitle": "Empresa",
+        "text": "Empresa"
+      },
+      "blockClass":"tfm"
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#empresam"]
+  },
+  "vtex.menu@2.x:submenu.accordion#empresam": {
+    "children": ["vtex.menu@2.x:menu#empm"],
+    "props":{
+      "blockClass":"fmen"
+    }
+  },
+  "vtex.menu@2.x:menu#empm": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass":"itemdet"
+    },
+    "children": [
+      "menu-item#noticias",
+      "menu-item#blog"
+    ]
+  },
+
+  
+  "menu-item#info-m": {
+    "props": {
+      "id": "item-im",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "noFollow": true,
+        "tagTitle": "Información",
+        "text": "Información"
+      },
+      "blockClass":"tfm"
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#infm"]
+  },
+  "vtex.menu@2.x:submenu.accordion#infm": {
+    "children": ["vtex.menu@2.x:menu#inform"],
+    "props":{
+      "blockClass":"fmen"
+    }
+  },
+  "vtex.menu@2.x:menu#inform": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass":"itemdet"
+    },
+    "children": [
+      "menu-item#faqs",
+      "menu-item#garantia",
+      "menu-item#envios"
+    ]
+  },
+
+  "menu-item#legales-m": {
+    "props": {
+      "id": "item-lm",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "noFollow": true,
+        "tagTitle": "Legales",
+        "text": "Legales"
+      },
+      "blockClass":"tfm"
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#legm"]
+  },
+  "vtex.menu@2.x:submenu.accordion#legm": {
+    "children": ["vtex.menu@2.x:menu#legam"],
+    "props":{
+      "blockClass":"fmen"
+    }
+  },
+  "vtex.menu@2.x:menu#legam": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass":"itemdet"
+    },
+    "children": [
+      "menu-item#terminos",
+      "menu-item#politicas",
+      "menu-item#aviso"
+    ]
+  }
+
+
+
+
+}

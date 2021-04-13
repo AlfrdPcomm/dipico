@@ -1,0 +1,110 @@
+.galleryLayoutOptionButton {
+  background-color: #F0F0F0;
+  color: #3F3F40;
+  padding: 0.375rem 0.75rem 0.375rem 0.75rem;
+}
+
+.galleryLayoutOptionButton--selected {
+  background-color: #3F3F40;
+  color: #FFFFFF;
+}
+
+.galleryLayoutSwitcher {
+  border-radius: 4px 4px 4px 4px;
+  justify-content: center;
+  overflow: hidden;
+  width: auto !important;
+  align-self: center
+}
+
+.galleryItem--list {
+  border-bottom: 1px #E7E9EE solid;
+}
+
+:global(.vtex-search-result-3-x-galleryTitle--layout) {
+  padding-left: 4rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--filterCol) {
+  margin-top: 30px;
+}
+
+:global(.vtex-search-result-3-x-filterMessage){
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 24px;
+  color: #00AEB2;
+}
+
+:global(.vtex-search-result-3-x-filterTitle){
+  color: #00AEB2;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 16px;
+}
+
+:global(.vtex-search-result-3-x-selectedCategoryName){
+  color: #444444;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 19px;
+}
+
+:global(.vtex-search-result-3-x-categoryItemChildren){
+  color: #444444;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 19px;
+}
+
+:global(.vtex-search-result-3-x-orderByText){
+  color: #00AEB2;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 19px;
+}
+
+:global(.vtex-search-result-3-x-filterPopupTitle){
+  color: #444444;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 19px;
+}
+
+:global(.vtex-search-result-3-x-filterPopupArrowIcon){
+  color: #444444;
+}
+
+:global(.vtex-search-result-3-x-orderByOptionItem--selected){
+  background-color: #00AEB2;
+}
+
+:global(.vtex-search-result-3-x-orderByOptionItem){
+  color: #444444;
+}
+
+:global(.vtex-product-highlights-2-x-productHighlightText) {
+  height: 24px;
+  width: 135px;
+  border-radius: 2px;
+  background-color: #FFBB33;
+  color: #FFFFFF;
+}
+
+:global(.vtex-product-summary-2-x-productBrand) {
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 16px;
+  text-align: justify;
+}
+
+:global(.vtex-product-price-1-x-sellingPriceValue--summary) {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+
