@@ -28,7 +28,7 @@
   },
   "notification.bar#home": {
     "props": {
-      "content": "Envíos sin costo Zona A,B,C"
+      "content": "Envíos sin costo a toda la república mexicana. *Sujeto a consumo mínimo de $1,500.00 MXN Aplican restricciones*"
     }
   },
   "flex-layout.row#3-desktop": {
@@ -70,8 +70,9 @@
       "flex-layout.col#category-menu",
       "flex-layout.col#spacer",
       "search-bar",
-      "login",
-      "minicart.v2"
+      "flex-layout.col#login-minicart"
+      //"login",
+      //"minicart.v2"
     ]
   },
   "flex-layout.col#logo-desktop": {
@@ -106,8 +107,7 @@
       "drawer",
       "logo#mobile",
       "flex-layout.col#spacer",
-      "login",
-      "minicart.v2"
+      "flex-layout.col#login-minicart"
     ],
     "props": {
       "blockClass": "main-header-mobile",
@@ -116,6 +116,44 @@
       "fullWidth": true
     }
   },
+  "flex-layout.col#login-minicart":{
+    "children":[
+      "flex-layout.row#rowsub"
+    ]
+  },"flex-layout.row#rowsub":{
+    "children":[
+      "flex-layout.col#login",
+      "flex-layout.col#minicart"
+    ],"props":{
+      "preserveLayoutOnMobile":true
+    }
+  }, "flex-layout.col#login":{
+    "children":[
+      "login",
+      "rich-text#login"
+    ],"props":{
+      "horizontalAlign":"center"
+    }
+  },"rich-text#login":{
+    "props":{
+      "text":"Acceso",
+      "blockClass":"titbtnh"
+    }
+  },"flex-layout.col#minicart":{
+    "children":[
+      "minicart.v2",
+      "rich-text#minic"
+    ],"props":{
+      "horizontalAlign":"center"
+    }
+  },"rich-text#minic":{
+    "props":{
+      "text":"Carrito",
+      "blockClass":"titbtnhcart"
+    }
+  },
+
+
   "drawer": {
     "children": ["menu#drawer"]
   },
@@ -123,9 +161,10 @@
   "menu#drawer": {
     "children": [
       "menu-item#Espacio",
-      "menu-item#TipoDePintura",
-      "menu-item#SolucionesAlaConstruccion",
-      "menu-item#Marca"
+      "menu-item#Productos",
+      "menu-item#Promociones",
+      "menu-item#Marca",
+      "menu-item#sucursales"
     ],
     "props": {
       "orientation": "vertical"
