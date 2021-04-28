@@ -5,35 +5,44 @@
           },
         "children":[
             "menu-item#Espacio",
-            "menu-item#TipoDePintura",
-            "menu-item#SolucionesAlaConstruccion",
-            "menu-item#Marca"
+            "menu-item#Productos",
+            "menu-item#Promociones",
+            "menu-item#Marca",
+            "menu-item#sucursales"
         ]
+    },
+    "menu-item#sucursales":{
+        "props":{
+            "type": "custom",
+            "href": "/Sucursales-Fisicas",
+            "text": "Sucursales Físicas",
+            "blockClass":"hmen"
+        }
     },
 
     "menu-item#Espacio":{
         "props":{
             "type": "custom",
-            "href": "/Espacio",
-            "text": "Espacio",
+            "href": "/Espacio-a-recubir",
+            "text": "Espacio a Recubrir",
             "blockClass":"hmen"
         }
     },
 
-    "menu-item#TipoDePintura":{
+    "menu-item#Productos":{
         "props":{
             "type": "custom",
-            "href": "/TipoDePintura",
-            "text": "Tipo de pintura",
+            "href": "/Productos",
+            "text": "Productos",
             "blockClass":"hmen"
         }
     },
 
-    "menu-item#SolucionesAlaConstruccion":{
+    "menu-item#Promociones":{
         "props":{
             "type": "custom",
-            "href": "/SolucionesAlaConstruccion",
-            "text": "Soluciones a la construccion",
+            "href": "/Promociones",
+            "text": "Promociones",
             "blockClass":"hmen"
         }
     },
@@ -41,8 +50,8 @@
     "menu-item#Marca":{
         "props":{
             "type": "custom",
-            "href": "/Marca",
-            "text": "Marca",
+            "href": "/Comprar-por-Marca",
+            "text": "Comprar por Marca",
             "blockClass":"hmen"
         }
     }

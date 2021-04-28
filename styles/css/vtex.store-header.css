@@ -118,3 +118,25 @@
   margin-top: 8px;
   content: url("assets/carrito.png");
 }
+
+:global(.vtex-rich-text-0-x-wrapper--titbtnh)
+  :global(.vtex-rich-text-0-x-paragraph){
+    margin: 0px;
+    font-size: 10px;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--titbtnhcart)
+  :global(.vtex-rich-text-0-x-paragraph){
+    margin-top: 3px;
+    margin-bottom: 0px;
+    font-size: 10px;
+}
+
+:global(.vtex-minicart-2-x-openIconContainer){
+  padding:0%;
+  margin-top: 9px;
+}
+
+:global(.vtex-button):hover{
+  background-color:transparent;
+}
