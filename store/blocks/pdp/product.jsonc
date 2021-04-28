@@ -3,19 +3,16 @@
     "children": [
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-main",
-      
-     
-      "shelf.relatedProducts",      
+      "shelf.relatedProducts",
       "product-questions-and-answers",
-
       "flex-layout.row#descple",
-
       "rich-text#titulo-terecomendamos",
       "flex-layout.row#terecomendamos",
       "rich-text#titulo-terecomendamos",
       "flex-layout.row#terecomendamos",
       "flex-layout.row#revs",
       "back-to-top-button"
+
     ]
   },
   "flex-layout.row#specifications-title": {
@@ -60,6 +57,7 @@
       "flex-layout.row#product-image",
       "product-bookmark",
       "product-specification-badges"
+
     ]
   },
 
@@ -100,11 +98,13 @@
       "flex-layout.row#product-name",
       "product-identifier.product",
       "product-rating-summary",
+      "PaletaColores",
       "flex-layout.row#list-price-savings",
-      "flex-layout.row#selling-price",      
+      "flex-layout.row#selling-price",
       //"product-installments",
+      "condition-layout.product#condicional-calculadora",
       "product-separator",
-      "flex-layout.row#sku-selector",      
+      "flex-layout.row#sku-selector",
       "sku-selector",
       "product-quantity",
       "product-assembly-options",
@@ -121,6 +121,21 @@
     "children":[
       "sku-selector"
     ]
+  },
+
+  "condition-layout.product#condicional-calculadora": {
+
+    "props": {
+      "conditions": [
+        {
+          "subject": "categoryId",
+          "arguments": {
+            "id": "1"
+          }
+        }
+      ],
+      "Then": "calculadora"
+    }
   },
 
 
@@ -269,9 +284,15 @@
   "flex-layout.row#revs":{
     "children":[
       "product-reviews"
-      
+
+    ]
+  },
+
+  "flex-layout.row#flex-layout-calculadora": {
+    "children": [
+      "calculadora"
     ]
   }
- 
-  
+
+
 }
