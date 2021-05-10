@@ -101,15 +101,17 @@
       "flex-layout.row#list-price-savings",
       "flex-layout.row#selling-price",
       //"product-installments",
-      "condition-layout.product#condicional-calculadora",
+      // "condition-layout.product#condicional-calculadora",
+      
       "product-separator",
-      "flex-layout.row#sku-selector",
+      // "flex-layout.row#sku-selector",
       "sku-selector",
-      "product-quantity",
-      "product-assembly-options",
+      "calculadora",    
+      // "product-quantity",
+      // "product-assembly-options",
       "product-gifts",
       //"modal-trigger#example",
-      "flex-layout.row#buy-button",
+      // "flex-layout.row#buy-button",  
       "availability-subscriber"
       //"shipping-simulator",
       //"share#default"
