@@ -103,7 +103,7 @@
       //"product-installments",
       // "condition-layout.product#condicional-calculadora",
       
-      "product-separator",
+      // "product-separator",
       // "flex-layout.row#sku-selector",
       "sku-selector",
       "calculadora",    

@@ -268,6 +268,14 @@
 }
 
 
+:global(.vtex-store-icons-0-x-cartIcon){
+  display: none;
+}
 
+.buttonContainer :global(.vtex-button){
+  color: rgb(255, 255, 255)
+}
 
-    
+.buttonContainer :global(.vtex-button):hover{
+  color: #00aeb2;
+}

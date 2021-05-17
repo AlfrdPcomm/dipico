@@ -229,7 +229,7 @@
         },
         "active-on": {
           "action-primary": "#ffffff",
-          "action-secondary": "#00AEB2",
+          "action-secondary": "#ffffff",
           "emphasis": "#ffffff",
           "success": "#ffffff",
           "success--faded": "#ffffff",
