@@ -140,3 +140,11 @@
 :global(.vtex-button):hover{
   background-color:transparent;
 }
+
+:global(.vtex-menu-2-x-styledLinkContainer--hmen):hover{
+  border-bottom: 1px solid #00AEB2 !important;
+}
+
+:global(.vtex-store-drawer-0-x-drawer){
+  background-color: #034094;
+}

@@ -16,5 +16,11 @@
   },
   "store.custom#terminos-y-condiciones":{
     "path":"/terminos-y-condiciones"
+  },
+  "store.storelocator#dipico":{
+    "path":"/stores"
+  },
+  "store.storedetail#dipico":{
+    "path":"/detalle-tienda"
   }
 }

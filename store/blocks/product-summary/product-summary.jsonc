@@ -7,8 +7,7 @@
       "product-summary-space",
       "product-list-price#summary",
       "flex-layout.row#selling-price-savings",
-      "add-to-cart-button"
-    ]
+      "add-to-cart-button"    ]
   },
   "flex-layout.col#productRating": {
     "props": {
@@ -20,8 +19,8 @@
   "stack-layout#prodsum": {
     "children": [
       "product-summary-image#shelf",
-      "vtex.product-highlights@2.x:product-highlights#collection",
-      "modal-trigger#quickview" // Check quickview.jsonc
+      "vtex.product-highlights@2.x:product-highlights#collection"
+      //"modal-trigger#quickview" // Check quickview.jsonc
     ]
   },
 

@@ -3,22 +3,22 @@
         "props": {
             "experimentalOptimizeRendering": true
           },
-        "children":[
+        "children":[            
             "menu-item#Espacio",
-            "menu-item#Productos",
             "menu-item#Promociones",
-            "menu-item#Marca",
+            "menu-item#Marcamob",
             "menu-item#sucursales"
         ]
     },
     "menu-item#sucursales":{
         "props":{
             "type": "custom",
-            "href": "/Sucursales-Fisicas",
+            "href": "/stores",
             "text": "Sucursales Físicas",
             "blockClass":"hmen"
         }
     },
+
 
     "menu-item#Espacio":{
         "props":{
@@ -29,12 +29,89 @@
         }
     },
 
-    "menu-item#Productos":{
+    "menu-item#Productos": {
+        "props": {
+          "id": "menu-item-prodmobile",
+          "blockClass":"hmen",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "noFollow": true,
+            "tagTitle": "Productos",
+            "text": "Productos"
+          }
+        },
+        "blocks": ["vtex.menu@2.x:submenu.accordion#productos"]
+      },
+      "vtex.menu@2.x:submenu.accordion#productos": {
+        "children": ["vtex.menu@2.x:menu#productos-accordion"]
+      },
+    
+      "vtex.menu@2.x:menu#productos-accordion": {
+        "props": {
+          "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#itemcol1",
+            "menu-item#itemcol2",
+            "menu-item#itemcol3",
+            "menu-item#itemcol4",
+            "menu-item#itemcol5",
+            "menu-item#itemcol6",
+            "menu-item#itemcol7",
+            "menu-item#itemcol8",
+            "menu-item#itemcol9",
+            "menu-item#itemcol10",
+            "menu-item#itemcol11",
+            "menu-item#itemcol12",
+            "menu-item#itemcol13",
+            "menu-item#itemcol14",
+            "menu-item#itemcol15",
+            "menu-item#itemcol16",
+            "menu-item#itemcol17",
+            "menu-item#itemcol18",
+            "menu-item#itemcol19",
+            "menu-item#itemcol20",
+            "menu-item#itemcol21",
+            "menu-item#itemcol22",
+            "menu-item#itemcol23",
+            "menu-item#itemcol24",
+            "menu-item#itemcol25",
+            "menu-item#itemcol26",
+            "menu-item#itemcol27",
+            "menu-item#itemcol28",
+            "menu-item#itemcol29",
+            "menu-item#itemcol30",
+            "menu-item#itemcol31",
+            "menu-item#itemcol32",
+            "menu-item#itemcol33",
+            "menu-item#itemcol34",
+            "menu-item#itemcol35",
+            "menu-item#itemcol36",
+            "menu-item#itemcol37",
+            "menu-item#itemcol38",
+            "menu-item#itemcol39",
+            "menu-item#itemcol40",
+            "menu-item#itemcol41",
+            "menu-item#itemcol42",
+            "menu-item#itemcol43",
+            "menu-item#itemcol44",
+            "menu-item#itemcol45"
+        ]
+      },
+
+
+
+
+    "category-menu":{
         "props":{
-            "type": "custom",
-            "href": "/Productos",
-            "text": "Productos",
-            "blockClass":"hmen"
+            "showAllDeparments": true,
+            "showAllSubcategories":true,
+            "menuDisposition": "center",
+            "departments": []
+
         }
     },
 
@@ -47,14 +124,62 @@
         }
     },
 
-    "menu-item#Marca":{
+    "menu-item#Marcamob": {
+        "props": {
+          "id": "menu-item-marca",
+          "blockClass":"hmen",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "noFollow": true,
+            "tagTitle": "Comprar por Marca",
+            "text": "Comprar por Marca"
+          }
+        },
+        "blocks": ["vtex.menu@2.x:submenu.accordion#marcamob"]
+      },
+      "vtex.menu@2.x:submenu.accordion#marcamob": {
+        "children": ["vtex.menu@2.x:menu#marcamob-accordion"]
+      },
+    
+      "vtex.menu@2.x:menu#marcamob-accordion": {
+        "props": {
+          "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#marca1",
+            "menu-item#marca2",
+            "menu-item#marca3"
+        ]
+      },
+
+      "menu-item#marca1":{
         "props":{
             "type": "custom",
-            "href": "/Comprar-por-Marca",
-            "text": "Comprar por Marca",
+            "href": "/Acuario",
+            "text": "Acuario",
+            "blockClass":"hmen"
+        }
+    },
+    "menu-item#marca2":{
+        "props":{
+            "type": "custom",
+            "href": "/Sika",
+            "text": "Sika",
+            "blockClass":"hmen"
+        }
+    },
+    "menu-item#marca3":{
+        "props":{
+            "type": "custom",
+            "href": "/ByP",
+            "text": "ByP",
             "blockClass":"hmen"
         }
     }
+
 
    
 

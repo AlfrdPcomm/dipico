@@ -1,0 +1,70 @@
+{
+"store.storedetail#dipico": {
+    "blocks": [
+        "flex-layout.row#titleStore", 
+        "store-group"]
+  },
+  "store-group": {
+    "children": ["flex-layout.row#containerStore"],
+    "props": {
+      "title": "{storeName} Store"
+    }
+  },
+  "flex-layout.row#titleStore": {
+    "children": ["flex-layout.col#titleStore"
+    ],"props":{
+        "blockClass": "rowtitle"
+      }
+  },
+  "flex-layout.row#containerStore": {
+    "children": ["flex-layout.col#detail", "flex-layout.col#store"]
+  },
+  "flex-layout.col#titleStore": {
+    "children": ["rich-text#titleStore"],
+    "props": {
+      "blockClass": "title",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#titleStore": {
+    "props": {
+      "text": "## Detalles de tienda"
+    }
+  },
+  "flex-layout.col#detail": {
+    "children": [
+      
+      "store-name",        
+      "store-address",
+      "store-hours",
+      "store-instructions",
+      "store-back-link"
+    ],
+    "props": {
+      "width": "30%",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#store": {
+    "children": ["store-map"],
+    "props": {
+      "width": "70%"
+    }
+  },
+  "store-hours": {
+    "props": {
+      "label": "Horarios:",
+      "format": "12h"
+    }
+  },
+  "store-back-link": {
+    "props": {
+      "label": "Ver todas las tiendas"
+    }
+  },
+  "store-instructions": {
+    "props": {
+      "label": ""
+    }
+  }
+}

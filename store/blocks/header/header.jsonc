@@ -85,8 +85,9 @@
     "props": {
       "verticalAlign": "middle"
     },
-    //"children": ["vtex.menu@2.x:menu#category-menu"]
-    "children": ["vtex.menu@2.x:menu#menu-alfrd"]
+    "children": ["vtex.menu@2.x:menu#category-menu"]
+    //"children": [
+     // "vtex.menu@2.x:menu#menu-alfrd"]
   },
   "logo#desktop": {
     "props": {
@@ -97,7 +98,7 @@
     }
   },
   "header-layout.mobile": {
-    "children": ["sticky-layout#1-mobile"]
+    "children": ["sticky-layout#1-mobile","search-bar"]
   },
   "sticky-layout#1-mobile": {
     "children": ["flex-layout.row#1-mobile"]
@@ -155,7 +156,10 @@
 
 
   "drawer": {
-    "children": ["menu#drawer"]
+    "children": ["menu#drawer"],
+    "props":{
+      "isFullWidth": true
+    }
   },
 
   "menu#drawer": {
@@ -163,7 +167,7 @@
       "menu-item#Espacio",
       "menu-item#Productos",
       "menu-item#Promociones",
-      "menu-item#Marca",
+      "menu-item#Marcamob",
       "menu-item#sucursales"
     ],
     "props": {

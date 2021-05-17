@@ -1,6 +1,109 @@
 {
   "store.home": {
     "blocks": [
+      "responsive-layout.desktop",
+      "responsive-layout.tablet",
+      "responsive-layout.phone"      
+    ]
+  },
+
+// ------------------------------ Phone-------------------------------
+  "responsive-layout.phone":{
+    "children":[
+      "list-context.image-list#principal",
+      /* You can make references to blocks defined in other files.
+       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+      "__fold__.experimentalLazyAssets",
+      "flex-layout.row#dealsmob",
+      "rich-text#titulo-terecomendamos",
+      "flex-layout.row#terecomendamos",
+      "list-context.image-list#secundario",
+      "rich-text#titulo-queespacio",
+      "list-context.image-list#queespacio",
+      "flex-layout.row#newsletter",
+      "back-to-top-button"
+    ]
+  },
+  "flex-layout.row#dealsmob":{
+    "children":[
+      "slider-layout#deals"
+    ],"props":{
+      "fullWidth":true,
+      "blockClass":"rowdeals"
+    }
+  },
+
+  "slider-layout#deals": {
+    "props": {
+      "autoplay":{
+        "timeout": 3000,
+        "stopOnHover":true
+      },
+      "showPaginationDots": "never",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "dealsmob"
+    },
+    "children": [
+      "flex-layout.row#deals1",
+      "flex-layout.row#deals2",
+      "flex-layout.row#deals3",
+      "flex-layout.row#deals4"
+    ]
+  },
+  "flex-layout.row#deals1":{
+    "children":[
+      "image#deal1",
+      "rich-text#deal1"
+    ]
+  },
+      "flex-layout.row#deals2":{
+    "children":[
+      "image#deal2",
+      "rich-text#deal2"
+    ]
+  },
+  "flex-layout.row#deals3":{
+    "children":[
+      "image#deal3",
+      "rich-text#deal3"
+    ]
+  },
+  "flex-layout.row#deals4":{
+    "children":[
+      "image#deal4",
+      "rich-text#deal4"
+    ]
+  },
+
+  
+
+  // ------------------------------ Phone-------------------------------
+
+  "responsive-layout.tablet":{
+    "children":[
+      "list-context.image-list#principal",
+      /* You can make references to blocks defined in other files.
+       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+      "__fold__.experimentalLazyAssets",
+      "flex-layout.row#deals",
+      "rich-text#titulo-terecomendamos",
+      "flex-layout.row#terecomendamos",
+      "list-context.image-list#secundario",
+      "rich-text#titulo-queespacio",
+      "list-context.image-list#queespacio",
+      "flex-layout.row#newsletter",
+      "back-to-top-button"
+    ]    
+  },
+
+  "responsive-layout.desktop":{
+    "children":[
       "list-context.image-list#principal",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
@@ -15,6 +118,14 @@
       "back-to-top-button"
     ]
   },
+
+
+
+
+
+
+
+
 
   "list-context.image-list#principal": {
     "children": ["slider-layout#principal-images"],

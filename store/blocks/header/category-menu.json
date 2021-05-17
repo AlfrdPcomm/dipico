@@ -3,48 +3,660 @@
     "props": {
       "experimentalOptimizeRendering": true
     },
-    "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
-      "menu-item#more"
+    "children": [ 
+      "menu-item#Espacio",
+      "menu-item#productosdesk",
+      "menu-item#Promociones",
+      "menu-item#marcadesk",
+      "menu-item#sucursales"
     ]
   },
-  "menu-item#category-apparel": {
+
+  
+  "menu-item#productosdesk": {
     "props": {
-      "id": "menu-item-category-apparel",
+      "id": "menu-item-prods",
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass":"hmen",
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/",
         "noFollow": false,
-        "tagTitle": "Apparel & Accessories",
-        "text": "Apparel & Accessories"
+        "tagTitle": "Productos",
+        "text": "Productos"
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#category-apparel"
+      "vtex.menu@2.x:submenu#prods"
     ]
   },
-  "vtex.menu@2.x:submenu#category-apparel": {
+  "vtex.menu@2.x:submenu#prods": {
     "props": {
-      "width": "auto"
+      "width":"100%",
+      "blockClass":"subcontainer"
     },
     "children": [
-      "vtex.menu@2.x:menu#category-apparel"
+      "vtex.menu@2.x:menu#category-prods"
     ]
   },
-  "vtex.menu@2.x:menu#category-apparel": {
+  "vtex.menu@2.x:menu#category-prods": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#category-apparel-clothing",
-      "menu-item#category-apparel-accessories",
-      "menu-item#category-apparel-eyeglasses"
+      "flex-layout.row#catsmenprin"
     ]
   },
+  "flex-layout.row#catsmenprin":{
+    "children":[
+      "flex-layout.col#colmencats1",
+      "flex-layout.col#colmencats2",
+      "flex-layout.col#colmencats3",
+      "flex-layout.col#colmencats4",
+      "flex-layout.col#colmencats5"
+    ],"props":{
+      "fullWdith":true,
+      "colSizing": "auto",
+      "colGap": 2
+    }
+  },"flex-layout.col#colmencats1":{
+    "children":[
+      "menu-item#itemcol1",
+      "menu-item#itemcol2",
+      "menu-item#itemcol3",
+      "menu-item#itemcol4",
+      "menu-item#itemcol5",
+      "menu-item#itemcol6",
+      "menu-item#itemcol7",
+      "menu-item#itemcol8",
+      "menu-item#itemcol9"
+    ]
+  },
+  "menu-item#itemcol1":{
+    "props":{
+      "type":"category",
+      "categoryId": 31,
+      "text":"Accesorios",
+      "blockClass":"catprinmen"
+
+    }
+  },
+  "menu-item#itemcol2":{
+    "props":{
+      "type":"category",
+      "categoryId": 15,
+      "text":"Acelerante de Fraguado",
+      "blockClass":"catprinmen"
+
+    }
+  },
+  "menu-item#itemcol3":{
+    "props":{
+      "type":"category",
+      "categoryId": 10,
+      "text":"Adhesivo de Montaje",
+      "blockClass":"catprinmen"
+    }
+  },
+  "menu-item#itemcol4":{
+    "props":{
+      "type":"category",
+      "categoryId": 35,
+      "text":"Armazones y Manerales",
+      "blockClass":"catprinmen"
+    }
+  },
+  "menu-item#itemcol5":{
+    "props":{
+      "type":"category",
+      "categoryId": 36,
+      "text":"Automotriz",
+      "blockClass":"catprinmen"
+    }
+  },
+  "menu-item#itemcol6":{
+    "props":{
+      "type":"category",
+      "categoryId": 41,
+      "text":"Barniz y Entintado",
+      "blockClass":"catprinmen"
+    }
+  },
+  "menu-item#itemcol7":{    
+    "props":{
+      "type":"category",
+      "categoryId": 26,
+      "text":"Brocha de Cerda Natural",
+      "blockClass":"catprinmen"
+    }
+  },
+
+  "menu-item#itemcol8":{
+    "props":{
+      "type":"category",
+      "categoryId": 27,
+      "text":"Brocha de Pelo de Camello",
+      "blockClass":"catprinmen"
+    }
+  },
+  "menu-item#itemcol9":{
+    "props":{
+      "type":"category",
+      "categoryId": 30,
+      "text":"Cepillo",
+      "blockClass":"catprinmen"
+    }
+  },
+
+  "flex-layout.col#colmencats2":{
+    "children":[
+      "menu-item#itemcol10",
+      "menu-item#itemcol11",
+      "menu-item#itemcol12",
+      "menu-item#itemcol13",
+      "menu-item#itemcol14",
+      "menu-item#itemcol15",
+      "menu-item#itemcol16",
+      "menu-item#itemcol17",
+      "menu-item#itemcol18"
+    ]
+  },
+
+  "menu-item#itemcol10":{
+    "props":{
+      "type":"category",
+      "categoryId": 21,
+      "text":"Cinta Auto Adherible Impermeable",
+      "blockClass":"catprinmen"
+    }
+  },
+  "menu-item#itemcol11":{
+    "props":{
+      "type":"category",
+      "categoryId": 29,
+      "text":"Cinta de Empaque",
+      "blockClass":"catprinmen"
+    }
+  },
+  "menu-item#itemcol12":{
+    "props":{
+      "type":"category",
+      "categoryId": 28,
+      "text":"Cinta Masking Tape",
+      "blockClass":"catprinmen"
+    }
+  },
+
+  "menu-item#itemcol13":{
+    "props":{
+      "type":"category",
+      "categoryId": 43,
+      "text":"Color Para Cemento",
+      "blockClass":"catprinmen"
+    }
+  },
+  "menu-item#itemcol14":{
+    "props":{
+      "type":"category",
+      "categoryId": 44,
+      "text":"Convertidor de Óxido",
+      "blockClass":"catprinmen"
+    }
+  },
+
+  "menu-item#itemcol15":{
+    "props":{
+      "type":"category",
+      "categoryId": 17,
+      "text":"Desmoldanta Para Concreto",
+      "blockClass":"catprinmen"
+    }
+  },
+
+  "menu-item#itemcol16":{
+    "props":{
+      "type":"category",
+      "categoryId": 11,
+      "text":"Epóxico Adhesivo de Montaje",
+      "blockClass":"catprinmen"
+    }
+  },
+
+  "menu-item#itemcol17":{
+    "props":{
+      "type":"category",
+      "categoryId": 24,
+      "text":"Epóxico Para Concreto",
+      "blockClass":"catprinmen"
+    }
+  },
+
+  "menu-item#itemcol18":{
+    "props":{
+      "type":"category",
+      "categoryId": 22,
+      "text":"Espuma Fijadora",
+      "blockClass":"catprinmen"
+    }
+  },
+
+  "flex-layout.col#colmencats3":{
+    "children":[
+      "menu-item#itemcol19",
+      "menu-item#itemcol20",
+      "menu-item#itemcol21",
+      "menu-item#itemcol22",
+      "menu-item#itemcol23",
+      "menu-item#itemcol24",
+      "menu-item#itemcol25",
+      "menu-item#itemcol26",
+      "menu-item#itemcol27"
+    ]
+  },
+  "menu-item#itemcol19":{
+    "props":{
+      "type":"category",
+      "categoryId": 13,
+      "text":"Estuko Para Muro",
+      "blockClass":"catprinmen"
+    }
+  },
+
+  "menu-item#itemcol20":{
+    "props":{
+      "type":"category",
+      "categoryId": 32,
+      "text":"Extensión Para Pintar",
+      "blockClass":"catprinmen"
+    }
+  },
+
+  "menu-item#itemcol21":{
+    "props":{
+      "type":"category",
+      "categoryId": 33,
+      "text":"Felpas y Repuestos Especiales",
+      "blockClass":"catprinmen"
+    }
+  },
+
+  "menu-item#itemcol22":{
+    "props":{
+      "type":"category",
+      "categoryId": 6,
+      "text":"Grout Cementicio",
+      "blockClass":"catprinmen"
+    }
+  },
+
+  "menu-item#itemcol23":{
+    "props":{
+      "type":"category",
+      "categoryId": 25,
+      "text":"Impermeabilizante Asfáltico Líquido",
+      "blockClass":"catprinmen"
+    }
+  },
+
+  "menu-item#itemcol24":{
+    "props":{
+      "type":"category",
+      "categoryId": 4,
+      "text":"Impermeabilizante Integral",
+      "blockClass":"catprinmen"
+    }
+  },
+
+  "menu-item#itemcol25":{
+    "props":{
+      "type":"category",
+      "categoryId": 18,
+      "text":"Impermeabilizante Para Depósitos De Agua",
+      "blockClass":"catprinmen"
+    }
+  },
+
+  "menu-item#itemcol26":{
+    "props":{
+      "type":"category",
+      "categoryId": 2,
+      "text":"Impermeabilizante Para Techo Líquido",
+      "blockClass":"catprinmen"
+    }
+  },
+
+  "menu-item#itemcol27":{
+    "props":{
+      "type":"category",
+      "categoryId": 16,
+      "text":"Membrana De Curado Para Concreto",
+      "blockClass":"catprinmen"
+    }
+  },
+
+  "flex-layout.col#colmencats4":{
+    "children":[
+      "menu-item#itemcol28",
+      "menu-item#itemcol29",
+      "menu-item#itemcol30",
+      "menu-item#itemcol31",
+      "menu-item#itemcol32",
+      "menu-item#itemcol33",
+      "menu-item#itemcol34",
+      "menu-item#itemcol35",
+      "menu-item#itemcol36"
+    ]
+  },
+
+  "menu-item#itemcol28":{
+    "props":{
+      "type":"category",
+      "categoryId": 34,
+      "text":"Mini Felpas y Repuestos",
+      "blockClass":"catprinmen"
+    }
+  },
+
+  "menu-item#itemcol29":{
+    "props":{
+      "type":"category",
+      "categoryId": 12,
+      "text":"Mortero Auto - Nivelante Para Piso",
+      "blockClass":"catprinmen"
+    }
+  },
+
+  "menu-item#itemcol30":{
+    "props":{
+      "type":"category",
+      "categoryId": 19,
+      "text":"Mortero De Reparación Estructural",
+      "blockClass":"catprinmen"
+    }
+  },
+
+  "menu-item#itemcol31":{
+    "props":{
+      "type":"category",
+      "categoryId": 37,
+      "text":"Pintura Acrílicia Modificada Base Agua",
+      "blockClass":"catprinmen"
+    }
+  },
+
+  "menu-item#itemcol32":{
+    "props":{
+      "type":"category",
+      "categoryId": 39,
+      "text":"Pintura Esmalte Acrílico En Aerosol",
+      "blockClass":"catprinmen"
+    }
+  },
+
+  "menu-item#itemcol33":{
+    "props":{
+      "type":"category",
+      "categoryId": 42,
+      "text":"Pintura Esmalte Anti - Corrisivo",
+      "blockClass":"catprinmen"
+    }
+  },
+
+  "menu-item#itemcol34":{
+    "props":{
+      "type":"category",
+      "categoryId": 9,
+      "text":"Pistola de Aplicación",
+      "blockClass":"catprinmen"
+    }
+  },
+
+  "menu-item#itemcol35":{
+    "props":{
+      "type":"category",
+      "categoryId": 38,
+      "text":"Poliuretano Transparente",
+      "blockClass":"catprinmen"
+    }
+  },
+
+  "menu-item#itemcol36":{
+    "props":{
+      "type":"category",
+      "categoryId": 40,
+      "text":"Primario Para Estructura Metálica",
+      "blockClass":"catprinmen"
+    }
+  },
+
+  "flex-layout.col#colmencats5":{
+    "children":[
+      "menu-item#itemcol37",
+      "menu-item#itemcol38",
+      "menu-item#itemcol39",
+      "menu-item#itemcol40",
+      "menu-item#itemcol41",
+      "menu-item#itemcol42",
+      "menu-item#itemcol43",
+      "menu-item#itemcol44",
+      "menu-item#itemcol45"
+    ]
+  },
+
+  "menu-item#itemcol37":{
+    "props":{
+      "type":"category",
+      "categoryId": 23,
+      "text":"ReadyMix",
+      "blockClass":"catprinmen"
+    }
+  },
+
+  "menu-item#itemcol38":{
+    "props":{
+      "type":"category",
+      "categoryId": 20,
+      "text":"Sellador De Juntas Con Bajo Movimiento",
+      "blockClass":"catprinmen"
+    }
+  },
+
+  "menu-item#itemcol39":{
+    "props":{
+      "type":"category",
+      "categoryId": 1,
+      "text":"Sellador de Poliuretano",
+      "blockClass":"catprinmen"
+    }
+  },
+
+  "menu-item#itemcol40":{
+    "props":{
+      "type":"category",
+      "categoryId": 3,
+      "text":"Sellador de Silicón",
+      "blockClass":"catprinmen"
+    }
+  },
+
+  "menu-item#itemcol41":{
+    "props":{
+      "type":"category",
+      "categoryId": 8,
+      "text":"Sellador de Muro Hidrofugante",
+      "blockClass":"catprinmen"
+    }
+  },
+
+  "menu-item#itemcol42":{
+    "props":{
+      "type":"category",
+      "categoryId": 7,
+      "text":"Sellador De Piso",
+      "blockClass":"catprinmen"
+    }
+  },
+
+  "menu-item#itemcol43":{
+    "props":{
+      "type":"category",
+      "categoryId": 45,
+      "text":"Sellador Primario Acrílico Modificado Base Agua",
+      "blockClass":"catprinmen"
+    }
+  },
+
+  "menu-item#itemcol44":{
+    "props":{
+      "type":"category",
+      "categoryId": 5,
+      "text":"Sellador y Adhesivo",
+      "blockClass":"catprinmen"
+    }
+  },
+
+  "menu-item#itemcol45":{
+    "props":{
+      "type":"category",
+      "categoryId": 14,
+      "text":"Tratamiento Contra El Salitre",
+      "blockClass":"catprinmen"
+    }
+  },
+
+  
+
+  "menu-item#marcadesk": {
+    "props": {
+      "id": "menu-item-marcadesk",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass":"hmen",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Comprar por Marca",
+        "text": "Comprar Por Marca"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#marcadesk"
+    ]
+  },
+  "vtex.menu@2.x:submenu#marcadesk": {
+    "props": {
+      "width":"100%",
+      "blockClass":"subcontainer"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-marcadesk"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-marcadesk": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#menmarcas"
+    ]
+  },
+  "flex-layout.row#menmarcas":{
+    "children":[      
+      "flex-layout.col#marca2",
+      "flex-layout.col#marca1",
+      "flex-layout.col#marca3"
+    ],"props":{
+      "fullWdith":true,
+      "colSizing": "equal",
+      "colGap": 2
+    }
+  },
+
+  "flex-layout.col#marca1":{
+    "children":[
+      "image#acuario"
+    ],"props":{
+      "verticalAlign":"middle",
+      "horizontalAlign":"center"
+    }
+  },"image#acuario":{
+    "props":{
+      "src":"assets/acuariologo.png",
+      "link":{
+        "url": "/acuario"
+      }
+    }
+  },
+
+  "flex-layout.col#marca2":{
+    "children":[
+      "image#sika"
+    ],"props":{
+      "verticalAlign":"middle",
+      "horizontalAlign":"center"
+    }
+  },"image#sika":{
+    "props":{
+      "src":"assets/sikalogo.png",
+      "link":{
+        "url": "/sika"
+      }
+    }
+  },
+
+  "flex-layout.col#marca3":{
+    "children":[
+      "image#byp"
+    ],"props":{
+      "verticalAlign":"middle",
+      "horizontalAlign":"center"
+    }
+  },"image#byp":{
+    "props":{
+      "maxHeigt":"80",
+      "src":"assets/byp.png",
+      "link":{
+        "url":"/byp"
+      }
+    }
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   "menu-item#category-apparel-clothing": {
     "props": {
       "id": "menu-item-category-apparel-clothing",

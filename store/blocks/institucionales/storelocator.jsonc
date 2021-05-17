@@ -1,0 +1,39 @@
+{
+    "store.storelocator#dipico": {
+      "blocks": [
+        "flex-layout.row#title",  
+        "flex-layout.row#container"
+      ]
+    },
+
+    "flex-layout.row#title": {
+      "children": ["flex-layout.col#title"]
+    },
+    "flex-layout.row#container": {
+      "children": [
+        "store-list"         
+        ],"props":{
+          "blockClass":"contentrow"
+        }
+    },
+
+    "flex-layout.col#title": {
+      "children": ["rich-text#title"],
+      "props": {
+        "blockClass": "title",
+        "preventVerticalStretch": true
+      }
+    },
+    "rich-text#title": {
+      "props": {
+        "text": "## Encuentra la tienda más cercana",
+        "blockClass":"titsl"
+      }
+    },
+    "store-map":{
+      "props":{
+        "height":"100%"
+      }
+    }
+    
+  }

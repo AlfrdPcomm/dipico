@@ -72,6 +72,46 @@
 :global(.vtex-search-result-3-x-galleryTitle--layout){
   color: #034094;
 }
+@media (max-width: 1024px){
+  :global(.vtex-store-components-3-x-searchBarContainer){
+    padding: 0 10px ;
+    padding-bottom: 10px;
+  }
+
+  :global(.vtex-menu-2-x-styledLinkContent--hmen){
+    color: #FFFFFF !important;
+    font-size: 28px;
+    font-family: 'Arlon-SemiBold';
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  :global(.vtex-store-drawer-0-x-closeIconButton)
+  :global(.vtex-store-drawer-0-x-closeIcon){
+    color: #FFFFFF;
+  }
+
+  :global(.vtex-menu-2-x-styledLinkContainer--catprinmen)
+  :global(.vtex-menu-2-x-styledLink)
+  :global(.vtex-menu-2-x-styledLinkContent--catprinmen){
+    color: #FFFFFF !important;
+    font-size: 14px !important;
+  }
+
+  :global(.vtex-menu-2-x-accordionIcon--hmen--isClosed),
+  :global(.vtex-menu-2-x-accordionIcon--hmen--isOpen){
+    font-size: 0px;
+  }
+  :global(.vtex-menu-2-x-accordionIcon--hmen--isClosed)::before{
+    content: url(assets/arrowder28px.png);
+  }
+
+  :global(.vtex-menu-2-x-accordionIcon--hmen--isOpen)::before{
+    content: url(assets/expand28px.png);
+  }
+
+
+}
 
 @media only screen and (min-width: 640px) {
   .newsletter .container {
@@ -266,8 +306,60 @@
     color: #000000;
     font-weight: 600;
 }
+/*------------------------- Store locator ---------------------*/
+
+:global(.vtex-store-locator-0-x-storeName){
+    color: #00AEB2;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
 
 
 
+:global(.vtex-store-locator-0-x-addressLink){
+  color: #00AEB2;
+}
 
-    
+:global(.vtex-store-locator-0-x-addressContainer),
+:global(.vtex-store-locator-0-x-hoursContainer){
+  padding-bottom: 15px;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--catmenu){
+  color: #000000;
+  font-weight: 600;  
+}
+
+:global(.vtex-menu-2-x-menuItem--catprinmen)
+:global(.vtex-menu-2-x-styledLinkContent--catprinmen){
+  color: #000000;
+  font-size: 12px !important;
+}
+:global(.vtex-menu-2-x-styledLinkContent--catprinmen):hover{
+  color: #00AEB2;
+}
+
+:global(.vtex-store-locator-0-x-storesList){
+  min-height: 400px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--contentrow){
+  padding-bottom: 50px;
+}
+
+:global(.vtex-menu-2-x-submenuWrapper--subcontainer){
+  border-bottom:2px solid #00AEB2;
+  border-top:2px solid #00AEB2;
+}
+
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--dealsmob){
+  background-color: #00AEB2;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+:global(.vtex-rich-text-0-x-container--deals)
+:global(.vtex-rich-text-0-x-paragraph){
+  font-size: 12px !important;
+}
