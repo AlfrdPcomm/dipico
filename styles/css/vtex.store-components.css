@@ -315,7 +315,8 @@
 }
 
 
-
+:global(.vtex-store-icons-0-x-cartIcon){
+  display: none;
 :global(.vtex-store-locator-0-x-addressLink){
   color: #00AEB2;
 }
@@ -363,3 +364,13 @@
 :global(.vtex-rich-text-0-x-paragraph){
   font-size: 12px !important;
 }
+
+
+/*.buttonContainer :global(.vtex-button){
+  color: rgb(255, 255, 255)
+}
+
+.buttonContainer :global(.vtex-button):hover{
+  color: #00aeb2;
+}
+*/

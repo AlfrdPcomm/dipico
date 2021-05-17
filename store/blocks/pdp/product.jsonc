@@ -103,14 +103,17 @@
       "flex-layout.row#list-price-savings",
       "flex-layout.row#selling-price",      
       //"product-installments",
-      "product-separator",
-      "flex-layout.row#sku-selector",      
-      //"sku-selector",
-      "product-quantity",
-      //"product-assembly-options",
-      //"product-gifts",
+       // "condition-layout.product#condicional-calculadora",
+      
+      // "product-separator",
+      // "flex-layout.row#sku-selector",
+      "sku-selector",
+      "calculadora",    
+      // "product-quantity",
+      // "product-assembly-options",
+      "product-gifts",
       //"modal-trigger#example",
-      "flex-layout.row#buy-button",
+      // "flex-layout.row#buy-button",  
       "availability-subscriber"
       //"shipping-simulator",
       //"share#default"
@@ -121,6 +124,21 @@
     "children":[
       "sku-selector"
     ]
+  },
+
+  "condition-layout.product#condicional-calculadora": {
+
+    "props": {
+      "conditions": [
+        {
+          "subject": "categoryId",
+          "arguments": {
+            "id": "1"
+          }
+        }
+      ],
+      "Then": "calculadora"
+    }
   },
 
   "modal-trigger#example":{
@@ -159,7 +177,9 @@
 
   "sku-selector": {
     "props": {  
-      "visibility":"more-than-one",
+      "variationsSpacing": 3,
+      "showValueNameForImageVariation": true,
+      "visibility":"more-than-one",      
       "hideImpossibleCombinations":false
     }
   },
@@ -270,6 +290,11 @@
     "children":[
       "product-reviews"
       
+    ]
+  },
+  "flex-layout.row#flex-layout-calculadora": {
+    "children": [
+      "calculadora"
     ]
   }
  

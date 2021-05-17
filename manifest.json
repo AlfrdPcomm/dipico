@@ -1,7 +1,7 @@
 {
-  "vendor": "vtex",
+  "vendor": "dipicomx",
   "name": "store-theme",
-  "version": "4.3.0",
+  "version": "4.3.2",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "vtex.store": "2.x",
+    "dipicomx.paint-calculator-app": "0.x",
     "vtex.store-header": "2.x",
     "vtex.product-summary": "2.x",
     "vtex.store-footer": "2.x",
