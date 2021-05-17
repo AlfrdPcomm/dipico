@@ -30,7 +30,11 @@
     "children": ["minicart-summary", "minicart-checkout-button"]
   },
   "minicart-product-list": {
+<<<<<<< HEAD
     "blocks": ["product-list#listaDeProductos"]
+=======
+    "blocks": ["product-list#listaDeProducto"]
+>>>>>>> 772c858bc2b2f37c0c3095931c654e3d58ff426a
   },
 
   "minicart-summary": {
@@ -79,10 +83,14 @@
   },
 
 
+<<<<<<< HEAD
 
 
 
   "product-list#listaDeProductos": {
+=======
+  "product-list#listaDeProducto": {
+>>>>>>> 772c858bc2b2f37c0c3095931c654e3d58ff426a
     "blocks": [
       "product-list-content-desktop",
       "product-list-content-mobile"
@@ -121,8 +129,13 @@
   },
   "flex-layout.row#sub-container.desktop": {
     "children": [
+<<<<<<< HEAD
       "flex-layout.row#prodesc",
       // "flex-layout.row#qua",
+=======
+      "flex-layout.col#product-description",
+      "flex-layout.col#quantity.desktop",
+>>>>>>> 772c858bc2b2f37c0c3095931c654e3d58ff426a
       "flex-layout.row#price-remove"
     ],
     "props": {
@@ -130,6 +143,7 @@
       "colSizing": "auto"
     }
   },
+<<<<<<< HEAD
   "flex-layout.row#qua":{
       "children":[
         "flex-layout.col#quantity.desktop"
@@ -141,6 +155,8 @@
           "flex-layout.col#product-description"
       ]
   },
+=======
+>>>>>>> 772c858bc2b2f37c0c3095931c654e3d58ff426a
   "flex-layout.col#quantity.desktop": {
     "children": [
       "flex-layout.row#quantity-selector.desktop",
@@ -234,7 +250,11 @@
   "flex-layout.col#main-container.mobile": {
     "children": [
       "flex-layout.row#top.mobile",
+<<<<<<< HEAD
       // "flex-layout.row#quantity-selector.mobile",
+=======
+      "flex-layout.row#quantity-selector.mobile",
+>>>>>>> 772c858bc2b2f37c0c3095931c654e3d58ff426a
       "flex-layout.row#unit-price.mobile",
       "flex-layout.row#price.mobile",
       "flex-layout.row#message.mobile"
