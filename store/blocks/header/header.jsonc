@@ -164,7 +164,7 @@
 
   "menu#drawer": {
     "children": [
-      "menu-item#Espacio",
+      //"menu-item#Espacio",
       "menu-item#Productos",
       "menu-item#Promociones",
       "menu-item#Marcamob",

@@ -101,15 +101,12 @@
       "flex-layout.row#list-price-savings",
       "flex-layout.row#selling-price",
       //"product-installments",
-<<<<<<< HEAD
        // "condition-layout.product#condicional-calculadora",
       
       // "product-separator",
-=======
       // "condition-layout.product#condicional-calculadora",
       
       "product-separator",
->>>>>>> 772c858bc2b2f37c0c3095931c654e3d58ff426a
       // "flex-layout.row#sku-selector",
       "sku-selector",
       "calculadora",    
@@ -144,10 +141,6 @@
       "Then": "calculadora"
     }
   },
-<<<<<<< HEAD
-=======
-
->>>>>>> 772c858bc2b2f37c0c3095931c654e3d58ff426a
 
   "modal-trigger#example":{
     "children":[
@@ -301,11 +294,6 @@
     ]
   },
 
-  "flex-layout.row#flex-layout-calculadora": {
-    "children": [
-      "calculadora"
-    ]
-  },
   "flex-layout.row#flex-layout-calculadora": {
     "children": [
       "calculadora"

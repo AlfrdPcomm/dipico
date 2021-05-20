@@ -228,15 +228,24 @@
       "images": [
         {
           "image": "assets/interiores.png",
-          "mobileImage": "assets/interiores.png"
+          "mobileImage": "assets/interiores.png",
+          "link":{
+            "url":"/Acuario"
+          }
         },
         {
           "image": "assets/restaurar.png",
-          "mobileImage": "assets/restaurar.png"
+          "mobileImage": "assets/restaurar.png",
+          "link":{
+            "url":"/Sika"
+          }
         },
         {
           "image": "assets/impermeabilizar.png",
-          "mobileImage": "assets/impermeabilizar.png"
+          "mobileImage": "assets/impermeabilizar.png",
+          "link":{
+            "url":"/Impermeabilizante"
+          }
         }
       ]
     }

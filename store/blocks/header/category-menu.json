@@ -4,7 +4,6 @@
       "experimentalOptimizeRendering": true
     },
     "children": [ 
-      "menu-item#Espacio",
       "menu-item#productosdesk",
       "menu-item#Promociones",
       "menu-item#marcadesk",

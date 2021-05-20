@@ -7,11 +7,7 @@
       "product-summary-space",
       "product-list-price#summary",
       "flex-layout.row#selling-price-savings"
-<<<<<<< HEAD
       // "add-to-cart-button"    
-=======
-      // "add-to-cart-button"
->>>>>>> 772c858bc2b2f37c0c3095931c654e3d58ff426a
     ]
   },
   "flex-layout.col#productRating": {

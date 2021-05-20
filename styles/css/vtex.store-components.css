@@ -317,6 +317,7 @@
 
 :global(.vtex-store-icons-0-x-cartIcon){
   display: none;
+}
 :global(.vtex-store-locator-0-x-addressLink){
   color: #00AEB2;
 }
