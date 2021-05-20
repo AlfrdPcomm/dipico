@@ -374,7 +374,9 @@
   "image#facebook":{
     "props":{
       "src": "assets/fb.png",
-      "link": "https://www.facebook.com/PinturasAcuario.Sika"
+      "link": {
+        "url":"https://www.facebook.com/PinturasAcuario.Sika"
+      }
     }
   },
 
@@ -389,7 +391,9 @@
   "image#instagram":{
     "props":{
       "src":"assets/ig.png",
-      "link":"https://www.instagram.com/dipicodeocc/?hl=es-la"
+      "link":{
+        "url":"https://www.instagram.com/dipicodeocc/?hl=es-la"
+      }
     }
   },
 
