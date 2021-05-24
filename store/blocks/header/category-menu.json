@@ -3,11 +3,42 @@
     "props": {
       "experimentalOptimizeRendering": true
     },
-    "children": [ 
+    "children": [
       "menu-item#productosdesk",
       "menu-item#Promociones",
       "menu-item#marcadesk",
       "menu-item#sucursales"
+    ]
+  },
+  "menu-item#productosdesk1": {
+    "props": {
+      "id": "menu-item-desk1",
+      "experimentalOptimizeRendering": true,
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "Clothing",
+        "text": "Clothing"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#clothing"]
+  },
+  "vtex.menu@2.x:submenu.accordion#clothing": {
+    "children": ["vtex.menu@2.x:menu#clothing-accordion"],"props":{
+      "width":"100%",
+      "blockClass":"subcontainer"
+    }
+  },
+
+  "vtex.menu@2.x:menu#clothing-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.col#colmencats1"
     ]
   },
 

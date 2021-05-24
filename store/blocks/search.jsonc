@@ -1,8 +1,9 @@
 {
   "store.search": {
     "blocks": ["search-result-layout"],
-    "props": {
+    "props": {      
       "context": {
+        "maxItemsPerPage": 12,
         "skusFilter": "ALL",
         "simulationBehavior": "skip"
       }
@@ -24,8 +25,9 @@
 
   "store.search#department": {
     "blocks": ["search-result-layout"],
-    "props": {
+    "props": {      
       "context": {
+        "maxItemsPerPage": 12,
         "skusFilter": "ALL",
         "simulationBehavior": "skip"
       }
@@ -36,6 +38,7 @@
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
+        "maxItemsPerPage": 12,
         "skusFilter": "ALL",
         "simulationBehavior": "skip"
       }
@@ -46,6 +49,7 @@
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
+        "maxItemsPerPage": 12,
         "skusFilter": "ALL",
         "simulationBehavior": "skip"
       }
