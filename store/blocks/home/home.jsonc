@@ -134,15 +134,15 @@
       "images": [
         {
           "image": "assets/bannerslider.png",
-          "mobileImage": "assets/bannerslider.png"
+          "mobileImage": "assets/bannersldmob.png"
         },
         {
           "image": "assets/bannerslider.png",
-          "mobileImage": "assets/bannerslider.png"
+          "mobileImage": "assets/bannersldmob.png"
         },
         {
           "image": "assets/bannerslider.png",
-          "mobileImage": "assets/bannerslider.png"
+          "mobileImage": "assets/bannersldmob.png"
         }
       ]
     }
@@ -196,7 +196,7 @@
       "images": [
         {
           "image": "assets/bannerqueremos.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+          "mobileImage": "assets/queremos.png"
         }
       ]
     }
