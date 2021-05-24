@@ -368,6 +368,9 @@
   font-size: 12px !important;
 }
 
+:global(.vtex-product-list-0-x-quantitySelector){
+  display: none;
+}
 
 /*.buttonContainer :global(.vtex-button){
   color: rgb(255, 255, 255)
