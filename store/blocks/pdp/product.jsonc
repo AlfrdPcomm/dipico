@@ -8,13 +8,39 @@
       "flex-layout.row#descple",
       "rich-text#titulo-terecomendamos",
       "flex-layout.row#terecomendamos",
+      "shelf.relatedProducts",
       "rich-text#titulo-terecomendamos",
-      "flex-layout.row#terecomendamos",
+      "flex-layout.row#terecomendamos#prod",
       "flex-layout.row#revs",
       "back-to-top-button"
 
     ]
   },
+
+  "flex-layout.row#terecomendamos#prod":{
+    "children":[
+      "list-context.product-list#related"
+    ]
+  },
+  "list-context.product-list#related": {
+    "blocks": ["product-summary.shelf"],    
+    "children": ["slider-layout#relatedprod"],
+    "props":{"orderBy": "OrderByReleaseDateDESC"}
+  },
+  "slider-layout#relatedprod": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+
   "flex-layout.row#specifications-title": {
     "children": [
       "rich-text#specifications"
