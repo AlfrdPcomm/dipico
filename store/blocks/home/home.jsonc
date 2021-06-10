@@ -174,10 +174,12 @@
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#demo-products"],
     "props": {
+      "collection":"139",
+      "maxItems": "15"
     }
   },
   "slider-layout#demo-products": {
-    "props": {
+    "props": {      
       "itemsPerPage": {
         "desktop": 5,
         "tablet": 3,

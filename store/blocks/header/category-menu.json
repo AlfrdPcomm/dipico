@@ -4,10 +4,10 @@
       "experimentalOptimizeRendering": true
     },
     "children": [
-      "menu-item#productosdesk",
-      "menu-item#Promociones",
+      "menu-item#productosdesk",      
       "menu-item#marcadesk",
-      "menu-item#sucursales"
+      "menu-item#sucursales",
+      "menu-item#Promociones"
     ]
   },
   "menu-item#productosdesk1": {
