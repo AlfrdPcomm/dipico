@@ -295,24 +295,27 @@
     },
     "blocks": ["vtex.menu@2.x:submenu.accordion#ificha"]
   },
+
+  /* ------------- Implementation data sheet ------------- */
+  
   "vtex.menu@2.x:submenu.accordion#ificha": {
-    "children": ["vtex.menu@2.x:menu#aficha"],
+    "children": ["flex-layout.col#fichaTecnica"],
     "props":{
       "blockClass":"ificha"
     }
   },
 
-  "vtex.menu@2.x:menu#aficha": {
-    "props": {
-      "orientation": "vertical",
-      "blockClass":"aficha"
-    },
-    "children": [
-      "flex-layout.row#specifications-title",
-      "product-specification-group#table"
-    ]
+  "flex-layout.col#fichaTecnica":{
+    "children":[
+      "documentation"
+    ],
+    "props":{
+      "blockClass":"colFichaTecnica",
+      "horizontalAlign":"center"
+    }
   },
 
+  /* ------------- /Implementation data sheet ------------ */
   "flex-layout.row#revs":{
     "children":[
       "product-reviews"

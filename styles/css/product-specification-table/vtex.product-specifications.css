@@ -5,3 +5,14 @@
 .specificationName {
   font-weight: bold;
 }
+
+
+/* -------------- Delete square hyperlik -------------- */
+
+:global(.vtex-menu-2-x-submenuAccordion--ificha)
+:global(.vtex-flex-layout-0-x-flexColChild--colFichaTecnica)
+:global(.vtex__icon-external-link){
+  display: none;
+}
+
+/* -------------- /Delete square hyperlik ------------- */
