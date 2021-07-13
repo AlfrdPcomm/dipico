@@ -433,15 +433,11 @@
   },"flex-layout.col#visam":{
     "children":[
       "image#visa"
-    ],"props":{
-      "horizontalAlign":"center"
-    }
+    ]
   },"flex-layout.col#mcm":{
     "children":[
       "image#mc"
-    ],"props":{
-      "horizontalAlign":"center"
-    }
+    ]
   }
 
 

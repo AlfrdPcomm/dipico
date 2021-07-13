@@ -189,5 +189,10 @@
     "props": {
       "openAutocompleteOnFocus": true
     }
+  },
+
+  "autocomplete-result-list.v2": {
+    "blocks": ["product-summary.shelf"]
   }
+  
 }

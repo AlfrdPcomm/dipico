@@ -148,3 +148,21 @@
 :global(.vtex-store-drawer-0-x-drawer){
   background-color: #034094;
 }
+
+:global(.vtex-menu-2-x-styledLinkContent--titcolprin){
+  color: #000000 !important;
+  font-family: 'Arlon-SemiBold';
+  font-size: 18px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--titsmenprin){
+  font-size: 22px;
+  font-family: 'Arlon-SemiBold';
+  color: #034094;
+}
+
+
+:global(.vtex-flex-layout-0-x-flexCol--colconstruccion ){
+  border-left: .5px solid rgba(223,223,223,0.5);
+}
+

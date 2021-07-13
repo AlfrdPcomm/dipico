@@ -78,7 +78,7 @@
       "flex-layout.row#catsmenprin"
     ]
   },
-  "flex-layout.row#catsmenprin":{
+  "flex-layout.row#catsmenprin1":{
     "children":[
       "flex-layout.col#colmencats1",
       "flex-layout.col#colmencats2",

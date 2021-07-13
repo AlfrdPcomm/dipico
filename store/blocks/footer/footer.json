@@ -1,7 +1,11 @@
 {
   "footer": {
-    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+      ]
   },
+
   "footer-layout.desktop": {
     "children": [
       "flex-layout.row#footer-1-desktop",
@@ -147,25 +151,7 @@
 
 
 
-  "flex-layout.row#2-footer-mobile": {
-    "children": ["flex-layout.col#footer-1-mobile"],
-    "props": {
-      "blockClass": "payment-methods",
-      "paddingTop": 4,
-      "paddingBottom": 4
-    }
-  },
-  "flex-layout.col#footer-1-mobile": {
-    "children": [
-      "accepted-payment-methods",
-      "social-networks"    ],
-    "props": {
-      "blockClass": "payment-methods",
-      "paddingTop": 4,
-      "paddingBottom": 4,
-      "rowGap": 4
-    }
-  },
+  
   "flex-layout.row#1-footer-mobile": {
     "props": {
       "paddingTop": 4,
@@ -187,9 +173,16 @@
       "menu-item#empresa-m",
       "menu-item#info-m",
       "menu-item#legales-m",
+      "flex-layout.row#siguenos-payment"
+      
+    ]
+  },"flex-layout.row#siguenos-payment":{
+    "children":[
       "vtex.menu@2.x:menu#siguenos",
       "vtex.menu@2.x:menu#aceptamosm"
-    ]
+    ],"props":{
+      "preserveLayoutOnMobile":true
+    }
   },
 
   "menu-item#contatco-m": {

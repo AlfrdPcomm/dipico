@@ -1,0 +1,323 @@
+{
+"flex-layout.row#catsmenprin":{
+    "children":[
+      "flex-layout.col#pinturas",
+      "flex-layout.col#construccion"
+    ],"props":{
+      "fullWdith":true,
+      "colSizing": "auto",
+      "colGap": 2
+    }
+  },
+
+"flex-layout.col#pinturas":{
+  "children":[
+    "flex-layout.row#titpint",
+    "flex-layout.row#catspint"
+  ]
+},"flex-layout.row#titpint":{
+  "children":[
+    "rich-text#titpint"
+  ]
+},"rich-text#titpint":{
+  "props":{
+    "text":"Pinturas",
+    "blockClass": "titsmenprin"
+  }
+},
+"flex-layout.row#catspint":{
+  "children":[
+    "flex-layout.col#cat1",
+    "flex-layout.col#cat2",
+    "flex-layout.col#cat3"
+  ],"props":{
+    "colSizing":"auto"
+  }
+},
+
+"flex-layout.col#cat1":{
+  "children":[
+    "vtex.menu@2.x:menu#colcats1"
+  ]
+},
+
+"vtex.menu@2.x:menu#colcats1":{
+  "children":[
+    "menu-item#titmencats1",
+    "menu-item#itemcats11",
+    "menu-item#itemcats12",
+    "menu-item#itemcats13",
+    "menu-item#itemcats14",
+    "menu-item#itemcats15",
+    "menu-item#itemcats16"
+  ],"props":{
+    "orientation":"vertical"
+  }
+},
+
+"menu-item#titmencats1":{
+  "props":{
+    "text":"Pinturas Especiales",
+    "blockClass":"titcolprin"
+  }
+},
+
+"menu-item#itemcats11":{
+  "props":{
+    "type":"category",
+    "categoryId": 55,
+    "text":"Automotríz",
+    "blockClass":"catprinmen"
+  }
+},
+"menu-item#itemcats12":{
+  "props":{
+    "type":"category",
+    "categoryId": 52,
+    "text":"Barniz",
+    "blockClass":"catprinmen"
+  }
+},
+
+"menu-item#itemcats13":{
+  "props":{
+    "type":"category",
+    "categoryId": 51,
+    "text":"Color para cemento",
+    "blockClass":"catprinmen"
+  }
+},
+"menu-item#itemcats14":{
+  "props":{
+    "type":"category",
+    "categoryId": 54,
+    "text":"Convertidor de Óxido",
+    "blockClass":"catprinmen"
+  }
+},
+"menu-item#itemcats15":{
+  "props":{
+    "type":"category",
+    "categoryId": 50,
+    "text":"Impermeabilizante",
+    "blockClass":"catprinmen"
+  }
+},
+"menu-item#itemcats16":{
+  "props":{
+    "type":"category",
+    "categoryId": 53,
+    "text":"Sellador",
+    "blockClass":"catprinmen"
+  }
+},
+
+"flex-layout.col#cat2":{
+  "children":[
+    "vtex.menu@2.x:menu#colcats2"
+  ],"props":{
+    "paddingLeft":5
+  }
+},
+
+"vtex.menu@2.x:menu#colcats2":{
+  "children":[
+    "menu-item#titmencats2",
+    "menu-item#itemcats21",
+    "menu-item#itemcats22",
+    "menu-item#itemcats23",
+    "menu-item#itemcats24"
+  ],"props":{
+    "orientation":"vertical"
+  }
+},
+
+"menu-item#titmencats2":{
+  "props":{
+    "text":"Aplicadores",
+    "blockClass":"titcolprin"
+  }
+},
+
+"menu-item#itemcats21":{
+  "props":{
+    "type":"category",
+    "categoryId": 57,
+    "text":"Brochas",
+    "blockClass":"catprinmen"
+  }
+},
+"menu-item#itemcats22":{
+  "props":{
+    "type":"category",
+    "categoryId": 58,
+    "text":"Cepillos",
+    "blockClass":"catprinmen"
+  }
+},
+
+"menu-item#itemcats23":{
+  "props":{
+    "type":"category",
+    "categoryId": 60,
+    "text":"Felpas",
+    "blockClass":"catprinmen"
+  }
+},
+"menu-item#itemcats24":{
+  "props":{
+    "type":"category",
+    "categoryId": 59,
+    "text":"Rodillos",
+    "blockClass":"catprinmen"
+  }
+},
+
+"flex-layout.col#cat3":{
+  "children":[    
+    "vtex.menu@2.x:menu#colcats3"
+  ],"props":{
+    "paddingRight": 8,
+    "paddingLeft":5
+  }  
+},
+
+"vtex.menu@2.x:menu#colcats3":{
+  "children":[
+    "menu-item#colcatsmen1",
+    "menu-item#colcatsmen2",
+    "menu-item#colcatsmen3",
+    "menu-item#colcatsmen4"
+  ],"props":{
+    "orientation":"vertical"
+  }
+},
+"menu-item#colcatsmen1":{
+  "props":{
+    "type":"category",
+    "categoryId": 46,
+    "text":"Acrílica",
+    "blockClass":"titcolprin"
+  }
+},
+
+"menu-item#colcatsmen2":{
+  "props":{
+    "type":"category",
+    "categoryId": 48,
+    "text":"Aerosol",
+    "blockClass":"titcolprin"
+  }
+},
+
+"menu-item#colcatsmen3":{
+  "props":{
+    "type":"category",
+    "categoryId": 47,
+    "text":"Esmalte",
+    "blockClass":"titcolprin"
+  }
+},
+
+"menu-item#colcatsmen4":{
+  "props":{
+    "type":"category",
+    "categoryId": 61,
+    "text":"Material y Accesorios",
+    "blockClass":"titcolprin"
+  }
+},
+
+
+
+"flex-layout.col#construccion":{
+  "children":[
+    "flex-layout.row#titconst",
+    "flex-layout.row#catconst"
+  ],"props":{
+    "preventVerticalStretch":true,
+    "blockClass":"colconstruccion",
+    "paddingLeft":8
+  }
+},
+"flex-layout.row#titconst":{
+  "children":[
+    "rich-text#titconst"
+  ]
+},
+"rich-text#titconst":{
+  "props":{
+    "text":"Construcción",
+    "blockClass": "titsmenprin"
+  }
+},
+
+"flex-layout.row#catconst":{
+  "children":[
+    "flex-layout.col#catsconst"
+  ]
+},
+"flex-layout.col#catsconst":{
+  "children":[
+    "vtex.menu@2.x:menu#colcatsconst1"
+  ]
+},
+"vtex.menu@2.x:menu#colcatsconst1":{
+  "children":[
+    "menu-item#titmencats4",
+    "menu-item#itemcats41",
+    "menu-item#itemcats42",
+    "menu-item#itemcats43",
+    "menu-item#itemcats44"
+  ],"props":{
+    "orientation":"vertical"
+  }
+},
+
+"menu-item#titmencats4":{
+  "props":{
+    "text":"Construcción",
+    "blockClass":"titcolprin"
+  }
+},
+
+"menu-item#itemcats41":{
+  "props":{
+    "type":"category",
+    "categoryId": 62,
+    "text":"Cementos y Aditivos",
+    "blockClass":"catprinmen"
+  }
+},
+
+"menu-item#itemcats42":{
+  "props":{
+    "type":"category",
+    "categoryId": 65,
+    "text":"Herramientas y Accesorios",
+    "blockClass":"catprinmen"
+  }
+},
+
+"menu-item#itemcats43":{
+  "props":{
+    "type":"category",
+    "categoryId": 63,
+    "text":"Selladores y Adhesivos",
+    "blockClass":"catprinmen"
+  }
+},
+
+"menu-item#itemcats44":{
+  "props":{
+    "type":"category",
+    "categoryId": 64,
+    "text":"Tratamientos",
+    "blockClass":"catprinmen"
+  }
+}
+
+
+
+
+}
