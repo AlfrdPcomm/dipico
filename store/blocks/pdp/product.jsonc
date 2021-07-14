@@ -296,9 +296,18 @@
     "blocks": ["vtex.menu@2.x:submenu.accordion#ificha"]
   },
   "vtex.menu@2.x:submenu.accordion#ificha": {
-    "children": ["vtex.menu@2.x:menu#aficha"],
+    "children": ["flex-layout.col#fichaTecnica"],
     "props":{
       "blockClass":"ificha"
+    }
+  },
+  "flex-layout.col#fichaTecnica":{
+    "children":[
+      "documentation"
+    ],
+    "props":{
+      "blockClass":"colFichaTecnica",
+      "horizontalAlign":"center"
     }
   },
 
