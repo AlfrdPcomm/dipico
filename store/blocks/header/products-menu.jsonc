@@ -315,6 +315,134 @@
     "text":"Tratamientos",
     "blockClass":"catprinmen"
   }
+},
+
+//------------------ Inicio Items mobile ------------------------------------------
+"flex-layout.row#catspintmob":{
+  "children":[
+    "flex-layout.col#pinturasmob",
+    "flex-layout.col#constrmob"    
+  ]
+},
+"flex-layout.col#pinturasmob":{
+  "children":[
+    "rich-text#titpint",
+    "menu-item#pinturasespeciales",
+    "menu-item#aplicadores",
+    "menu-item#colcatsmen1",
+    "menu-item#colcatsmen2",
+    "menu-item#colcatsmen3",
+    "menu-item#colcatsmen4"
+  ],"props":{
+    "blockClass":"colmenmob",
+    "paddingLeft":6
+  }
+},
+"flex-layout.col#constrmob":{
+  "children":[
+    "rich-text#titconst",
+    "menu-item#construccion"
+  ],"props":{
+    "blockClass":"colmenmob",
+    "paddingLeft":6
+  }
+},
+"menu-item#pinturasespeciales": {
+  "props": {
+    "id": "menu-item-pesp",
+    "blockClass":"titcolprin",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "noFollow": true,
+      "tagTitle": "Pinturas Especiales",
+      "text": "Pinturas Especiales"
+    }
+  },
+  "blocks": ["vtex.menu@2.x:submenu.accordion#pesp"]
+},
+"vtex.menu@2.x:submenu.accordion#pesp": {
+  "children": ["vtex.menu@2.x:menu#pesp-accordion"]
+},
+
+"vtex.menu@2.x:menu#pesp-accordion": {
+  "props": {
+    "orientation": "vertical"
+  },
+  "children": [
+    "menu-item#itemcats11",
+    "menu-item#itemcats12",
+    "menu-item#itemcats13",
+    "menu-item#itemcats14",
+    "menu-item#itemcats15",
+    "menu-item#itemcats16"
+  ]
+},
+
+"menu-item#aplicadores": {
+  "props": {
+    "id": "menu-item-apli",
+    "blockClass":"titcolprin",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "noFollow": true,
+      "tagTitle": "Aplicadores",
+      "text": "Aplicadores"
+    }
+  },
+  "blocks": ["vtex.menu@2.x:submenu.accordion#aplicadores"]
+},
+"vtex.menu@2.x:submenu.accordion#aplicadores": {
+  "children": ["vtex.menu@2.x:menu#aplicadores-accordion"]
+},
+
+"vtex.menu@2.x:menu#aplicadores-accordion": {
+  "props": {
+    "orientation": "vertical"
+  },
+  "children": [
+    "menu-item#itemcats21",
+    "menu-item#itemcats22",
+    "menu-item#itemcats23",
+    "menu-item#itemcats24"
+  ]
+},
+
+"menu-item#construccion": {
+  "props": {
+    "id": "menu-item-const",
+    "blockClass":"titcolprin",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "noFollow": true,
+      "tagTitle": "Construcción",
+      "text": "Construcción"
+    }
+  },
+  "blocks": ["vtex.menu@2.x:submenu.accordion#const"]
+},
+"vtex.menu@2.x:submenu.accordion#const": {
+  "children": ["vtex.menu@2.x:menu#const-accordion"]
+},
+
+"vtex.menu@2.x:menu#const-accordion": {
+  "props": {
+    "orientation": "vertical"
+  },
+  "children": [
+    "menu-item#itemcats41",
+    "menu-item#itemcats42",
+    "menu-item#itemcats43",
+    "menu-item#itemcats44"
+  ]
 }
 
 

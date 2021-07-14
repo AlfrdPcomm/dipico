@@ -166,3 +166,35 @@
   border-left: .5px solid rgba(223,223,223,0.5);
 }
 
+/*----------------- Inicio css Menu mobile ----------------------*/
+@media (max-width:1024px) {
+  :global(.vtex-rich-text-0-x-paragraph--titsmenprin){
+    color: #00AEB2;
+    margin-bottom: 0%;
+  }
+
+  :global(.vtex-menu-2-x-styledLinkContent--titcolprin){
+    color: #FFFFFF !important;
+    padding-left: 15px;
+  }
+
+  :global(.vtex-menu-2-x-styledLinkContent--catprinmen){
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  :global(.vtex-menu-2-x-styledLinkContent--titcolprin):hover{
+    border-bottom:1px solid  #00AEB2;
+  }
+
+  :global(.vtex-menu-2-x-accordionIcon--titcolprin--isClosed){
+    content: url(assets/rightmob.png);
+  }
+  :global(.vtex-menu-2-x-accordionIcon--titcolprin--isOpen){
+    content: url(assets/downmob.png);
+  }
+ 
+
+}
+/*----------------- Fina css Menu mobile ----------------------*/
+

@@ -54,7 +54,8 @@
           "orientation": "vertical"
         },
         "children": [
-            "menu-item#itemcol1",
+          "flex-layout.row#catspintmob"
+            /*"menu-item#itemcol1",
             "menu-item#itemcol2",
             "menu-item#itemcol3",
             "menu-item#itemcol4",
@@ -98,9 +99,10 @@
             "menu-item#itemcol42",
             "menu-item#itemcol43",
             "menu-item#itemcol44",
-            "menu-item#itemcol45"
+            "menu-item#itemcol45"*/
         ]
       },
+      
 
 
 
