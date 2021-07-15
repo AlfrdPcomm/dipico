@@ -1,7 +1,7 @@
 {
   "vendor": "dipicomx",
   "name": "dipico-store",
-  "version": "1.2.8",
+  "version": "1.2.7",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -67,12 +67,13 @@
     "vtex.search": "2.x",
     "vtex.store-newsletter": "1.x",
     "vtex.category-menu": "2.x",
-    "vtex.product-context": "0.x",
-    "dipicomx.documentation-app": "0.x"
+    "vtex.product-context": "0.x"
+    
   },
   "peerDependencies": {
     "vtex.reviews-and-ratings": "2.x",
-    "vtex.store-locator": "0.x"
+    "vtex.store-locator": "0.x",
+    "dipicomx.documentation-app": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
