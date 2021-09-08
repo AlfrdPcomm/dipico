@@ -162,6 +162,7 @@
   font-size: 30px;
 }
 
+:global(.vtex-menu-2-x-styledLinkContent--ficha),
 :global(.vtex-menu-2-x-styledLinkContent--destalles){
   background-color: #034094;
   padding: 10px;
@@ -184,6 +185,7 @@
   color:#ffffff;
 }
 
+:global(.vtex-menu-2-x-accordionIcon--ficha),
 :global(.vtex-menu-2-x-accordionIcon--destalles){
   font-size: 20px;
 }

@@ -315,7 +315,8 @@
     }
   },"newsletter-submit":{
     "props":{
-      "submitButtonLabel": "Enviar"
+      "submitButtonLabel": "Enviar",
+      "blockClass": "enviarButton123"
     }
   },
 

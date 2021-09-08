@@ -291,7 +291,7 @@
         "tagTitle": "Ficha Técnica",
         "text": "Ficha Técnica"
       },
-      "blockClass":"destalles"
+      "blockClass":"ficha"
     },
     "blocks": ["vtex.menu@2.x:submenu.accordion#ificha"]
   },
