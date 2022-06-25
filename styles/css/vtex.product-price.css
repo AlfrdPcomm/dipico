@@ -7,11 +7,13 @@
 .sellingPrice {
   color: #3f3f40;
   font-size: 1.25rem;
+  font-family: 'Arlon-SemiBold';
 }
 
 .sellingPriceValue {
   font-size: 2.25rem;
   font-weight: 700;
+  font-family: 'Arlon-SemiBold';
 }
 
 .installments {
@@ -22,26 +24,28 @@
 .savings {
   font-weight: 500;
   color: #79B03A;
+  font-family: 'Arlon-SemiBold';
 }
 
 .sellingPriceValue--summary {
   font-size: 1.25rem;
   font-weight: 600;
   color: #2E2E2E;
+  font-family: 'Arlon-SemiBold';
 }
 
 .savings--summary {
-  background: #8BC34A;
+  background: #ffffff;
   border-radius: 1000px;
   align-items: center;
   display: flex;
-
+  font-family: 'Arlon-SemiBold';
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   font-size: 0.875rem;
   font-weight: 600;
   vertical-align: baseline;
-  color: #FFFFFF;
+  color: #79B03A;
 }
 
 .savings-discount--summary {
@@ -51,6 +55,7 @@
   color: #FFFFFF;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+  font-family: 'Arlon-SemiBold';
 }
 
 .listPrice--summary {

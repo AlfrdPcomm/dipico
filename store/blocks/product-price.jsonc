@@ -17,11 +17,17 @@
       "preserveLayoutOnMobile": true,
       "preventHorizontalStretch": true,
       "marginBottom": 2,
-      "marginTop": 5
+      "marginTop": 2
     },
     "children": [
-      "product-list-price",
-      "product-price-savings"
+      "product-list-price"
     ]
+  },
+  "flex-layout.row#savings-pdp":{
+    "children":[
+      "product-price-savings"
+    ],"props":{
+      "marginBottom": 2
+    }
   }
 }

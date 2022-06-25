@@ -389,3 +389,30 @@
   color: #00aeb2;
 }
 */
+
+:global(.vtex-flex-layout-0-x-flexCol--productRating){
+  margin-bottom: .5rem !important;
+}
+
+:global(.vtex-product-price-1-x-savings--summary){
+  padding-left: 0;
+  padding-right: 0;
+}
+
+:global(.vtex-product-summary-2-x-nameContainer){
+  padding-bottom: .5rem;
+}
+
+
+:global(.vtex-product-identifier-0-x-product-identifier__label),
+:global(.vtex-product-identifier-0-x-product-identifier__value),
+:global(.vtex-product-price-1-x-listPriceValue){
+  font-family: 'Arlon-SemiBold';
+}
+
+:global(.vtex-product-summary-2-x-element)
+  :global(.vtex-button){
+    background-color: #034094;
+    border-color: #034094;
+    font-family: 'Arlon-SemiBold';
+}
