@@ -416,3 +416,8 @@
     border-color: #034094;
     font-family: 'Arlon-SemiBold';
 }
+
+:global(.vtex-product-price-1-x-savingsValue--summary)::before{
+  content: "_";
+  color: #fff;
+}
