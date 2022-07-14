@@ -137,6 +137,7 @@
       // "flex-layout.row#sku-selector",
       "sku-selector",
       "calculadora",    
+      //"add-to-cart-button#comprapida",
       // "product-quantity",
       // "product-assembly-options",
       "product-gifts",
@@ -146,6 +147,12 @@
       //"shipping-simulator",
       //"share#default"
     ]
+  },
+  "add-to-cart-button#comprapida":{
+    "props":{
+      "isOneClickBuy": true,
+      "text": "Comprar"
+    }
   },
 
   "flex-layout.row#sku-selector":{

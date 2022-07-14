@@ -17,7 +17,11 @@
       "flex-layout.row#dealsmob",
       "rich-text#titulo-terecomendamos",
       "flex-layout.row#terecomendamos",
-      "list-context.image-list#secundario",
+      "rich-text#rectit2",
+      "flex-layout.row#sugerencia1",
+      "rich-text#rectit3",
+      "flex-layout.row#sugerencia2",
+      //"list-context.image-list#secundario",
       "rich-text#titulo-queespacio",
       "list-context.image-list#queespacio",
       "flex-layout.row#newsletter",
@@ -94,7 +98,11 @@
       "flex-layout.row#deals",
       "rich-text#titulo-terecomendamos",
       "flex-layout.row#terecomendamos",
-      "list-context.image-list#secundario",
+      "rich-text#rectit2",
+      "flex-layout.row#sugerencia1",
+      "rich-text#rectit3",
+      "flex-layout.row#sugerencia2",
+      //"list-context.image-list#secundario",
       "rich-text#titulo-queespacio",
       "list-context.image-list#queespacio",
       "flex-layout.row#newsletter",
@@ -111,20 +119,17 @@
       "flex-layout.row#deals",
       "rich-text#titulo-terecomendamos",
       "flex-layout.row#terecomendamos",
-      "list-context.image-list#secundario",
+      "rich-text#rectit2",
+      "flex-layout.row#sugerencia1",
+      "rich-text#rectit3",
+      "flex-layout.row#sugerencia2desk",
+      //"list-context.image-list#secundario",
       "rich-text#titulo-queespacio",
       "list-context.image-list#queespacio",
       "flex-layout.row#newsletter",
       "back-to-top-button"
     ]
   },
-
-
-
-
-
-
-
 
 
   "list-context.image-list#principal": {
@@ -171,6 +176,7 @@
     "children": ["list-context.product-list#demo1"]
   },
   "list-context.product-list#demo1": {
+    "title":"Lista de productos Sugeridos 1",
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#demo-products"],
     "props": {
@@ -317,15 +323,79 @@
     "props":{
       "submitButtonLabel": "Enviar"
     }
-  },
-
-
-  
+  }, 
 
   "back-to-top-button":{
        "props":{
          "displayThreshold": 800,
          "display":"caret-icon"
        }
-     }
+     },
+// Carruseles de sugerencias 2 y 3
+     "rich-text#rectit2":{
+        "title":"Títuto Sugerencias 2",      
+        "props": {
+          "text": "## Te recomendamos",
+          "blockClass": "shelfTitle"
+        }
+     },
+     "flex-layout.row#sugerencia1":{
+      "children":[
+        "list-context.product-list#sug2"
+      ]
+     },
+     "list-context.product-list#sug2": {
+      "title":"Lista de productos Sugeridos 2",
+      "blocks": ["product-summary.shelf"],
+      "children": ["slider-layout#sug2"]
+    },
+    "slider-layout#sug2": {
+      "props": {      
+        "itemsPerPage": {
+          "desktop": 5,
+          "tablet": 3,
+          "phone": 1
+        },
+        "infinite": true,
+        "fullWidth": false,
+        "blockClass": "shelf"
+      }
+    },
+
+     "rich-text#rectit3":{
+      "title":"Títuto Sugerencias 3",
+      "props": {
+        "text": "## Te recomendamos",
+        "blockClass": "shelfTitle"
+      }
+     },
+     "flex-layout.row#sugerencia2desk":{
+      "title":"Lista de productos Sugeridos 3 desk",
+      "children":[
+        "list-context.product-list#sug3"
+      ]
+     },
+     "flex-layout.row#sugerencia2":{
+      "children":[
+        "list-context.product-list#sug3"
+      ]
+     },
+     "list-context.product-list#sug3": {
+      "title":"Lista de productos Sugeridos 3",
+      "blocks": ["product-summary.shelf"],
+      "children": ["slider-layout#sug3"]
+    },
+    "slider-layout#sug3": {
+      "props": {      
+        "itemsPerPage": {
+          "desktop": 5,
+          "tablet": 3,
+          "phone": 1
+        },
+        "infinite": true,
+        "fullWidth": false,
+        "blockClass": "shelf"
+      }
+    }
+     
 }

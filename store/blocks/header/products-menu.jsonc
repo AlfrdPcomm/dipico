@@ -185,7 +185,7 @@
 "vtex.menu@2.x:menu#colcats3":{
   "children":[
     "menu-item#colcatsmen1",
-    "menu-item#colcatsmen2",
+    //"menu-item#colcatsmen2",
     "menu-item#colcatsmen3",
     "menu-item#colcatsmen4"
   ],"props":{
@@ -330,7 +330,7 @@
     "menu-item#pinturasespeciales",
     "menu-item#aplicadores",
     "menu-item#colcatsmen1",
-    "menu-item#colcatsmen2",
+    //"menu-item#colcatsmen2",
     "menu-item#colcatsmen3",
     "menu-item#colcatsmen4"
   ],"props":{
