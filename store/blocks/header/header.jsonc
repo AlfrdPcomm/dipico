@@ -68,13 +68,24 @@
     "children": [
       "flex-layout.col#logo-desktop",
       "flex-layout.col#category-menu",
-      "flex-layout.col#spacer",
-      "search-bar",
+      "flex-layout.col#sb",
+      //"flex-layout.col#spacer",
+      //"search-bar",
       "flex-layout.col#login-minicart"
       //"login",
       //"minicart.v2"
     ]
   },
+  "flex-layout.col#sb":{
+    "children":[
+      "search-bar"
+    ],
+    "props":{
+      "blockClass":"sbdesktop",
+      "width":"grow" 
+    }
+  },
+
   "flex-layout.col#logo-desktop": {
     "props": {
       "verticalAlign": "middle"

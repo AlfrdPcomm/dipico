@@ -24,7 +24,7 @@
       //"list-context.image-list#secundario",
       "rich-text#titulo-queespacio",
       "list-context.image-list#queespacio",
-      "flex-layout.row#newsletter",
+      //"flex-layout.row#newsletter",
       "back-to-top-button"
     ]
   },
@@ -105,7 +105,7 @@
       //"list-context.image-list#secundario",
       "rich-text#titulo-queespacio",
       "list-context.image-list#queespacio",
-      "flex-layout.row#newsletter",
+      //"flex-layout.row#newsletter",
       "back-to-top-button"
     ]    
   },
@@ -126,7 +126,7 @@
       //"list-context.image-list#secundario",
       "rich-text#titulo-queespacio",
       "list-context.image-list#queespacio",
-      "flex-layout.row#newsletter",
+      //"flex-layout.row#newsletter",
       "back-to-top-button"
     ]
   },
@@ -302,9 +302,8 @@
   
   "rich-text#titnl":{
     "props":{
-      "text":"¿Te gustaría saber sobre colores y tendencias?",
-      "blockClass":"ns",
-      "font": "t-heading-2"
+      "text":"Suscríbete a nuestro newsletter",
+      "blockClass":"ns"
     }
   },
   "newsletter-form":{

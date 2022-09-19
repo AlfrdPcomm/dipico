@@ -71,7 +71,8 @@
       "back-to-top-button"
     ],
     "props": {
-      "pagination": "show-more",
+      //"pagination": "show-more",
+      "pagination": "infinity-scroll",
       "preventRouteChange": false,
       "defaultGalleryLayout": "grid"
     }
@@ -160,7 +161,8 @@
       "back-to-top-button"
     ],
     "props": {
-      "pagination": "show-more",
+      //"pagination": "show-more",
+      "pagination": "infinity-scroll",
       "mobileLayout": {
         "mode1": "small",
         "mode2": "normal"

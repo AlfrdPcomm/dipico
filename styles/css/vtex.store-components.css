@@ -226,8 +226,7 @@
 }
 
 :global(.vtex-numeric-stepper__plus-button),
-:global(.vtex-numeric-stepper__minus-button),
-:global(.vtex-flex-layout-0-x-flexRowContent--rownews){
+:global(.vtex-numeric-stepper__minus-button){
   background-color: #00AEB2;
 }
 
@@ -250,6 +249,14 @@
       color: #034094;
       font-weight: 600;
     }
+
+:global(.vtex-store-newsletter-1-x-formSubmitContainer)
+  :global(.vtex-button)
+    :global(.vtex-button__label):hover{
+      color: #ffffff;
+      font-weight: 600;
+    }
+
 
 :global(.vtex-store-newsletter-1-x-emailInputContainer)
   :global(.vtex-styleguide-9-x-input)::-webkit-input-placeholder{
@@ -420,4 +427,13 @@
 :global(.vtex-product-price-1-x-savingsValue--summary)::before{
   content: "_";
   color: #fff;
+}
+
+:global(.vtex-store-components-3-x-backToTopButtonActive){
+  margin-bottom: 60px;
+}
+@media (min-width: 1024px){
+:global(.vtex-store-components-3-x-imageElement--kp){
+  min-width: 89px;
+}
 }

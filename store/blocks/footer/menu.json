@@ -330,7 +330,9 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#titsm"
+      "menu-item#titsm",
+      "flex-layout.row#redes",
+      "flex-layout.row#newsletter"
      
     ]
   },"menu-item#titsm": {
@@ -345,10 +347,7 @@
         "tagTitle": "Síguenos",
         "text": "Síguenos"
       }
-    },
-    "children":[
-      "flex-layout.row#redes"
-    ]
+    }
   },
   
   
@@ -403,7 +402,8 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#titaceptamos"
+      "menu-item#titaceptamos",
+      "flex-layout.row#tarjeta"
      
     ]
   },"menu-item#titaceptamos": {
@@ -420,12 +420,15 @@
       }
     },
     "children":[
-      "flex-layout.row#tarjeta"
+      
     ]
   },"flex-layout.row#tarjeta":{
     "children":[
       "flex-layout.col#visam",
-      "flex-layout.col#mcm"
+      "flex-layout.col#mcm",
+      "flex-layout.col#mp",
+      "flex-layout.col#pp",
+      "flex-layout.col#kp"
     ],"props":{
       "preserveLayoutOnMobile":true,
       "blockClass":"spaceredes"
@@ -438,6 +441,36 @@
     "children":[
       "image#mc"
     ]
+  },
+  "flex-layout.col#mp":{
+    "children":[
+      "image#mp"
+    ]
+  },
+  "flex-layout.col#pp":{
+    "children":[
+      "image#pp"
+    ]
+  },
+  "flex-layout.col#kp":{
+    "children":[
+      "image#kp"
+    ]
+  },
+  "image#mp":{
+    "props":{
+      "src": "assets/mp.png"
+    }
+  },
+  "image#pp":{
+    "props":{
+      "src": "assets/paypal.png"
+    }
+  }, "image#kp":{
+    "props":{
+      "src": "assets/kp.png",
+      "blockClass":"kp"
+    }
   }
 
 

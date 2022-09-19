@@ -81,7 +81,10 @@
   "flex-layout.row#metsp":{
     "children":[
       "flex-layout.col#visa",
-      "flex-layout.col#masterc"
+      "flex-layout.col#masterc",
+      "flex-layout.col#mp",
+      "flex-layout.col#pp",
+      "flex-layout.col#kp"
     ]
   },"flex-layout.col#visa":{
     "children":[
@@ -173,13 +176,19 @@
       "menu-item#empresa-m",
       "menu-item#info-m",
       "menu-item#legales-m",
-      "flex-layout.row#siguenos-payment"
+      "flex-layout.row#siguenos",
+      "flex-layout.row#payment"
       
     ]
-  },"flex-layout.row#siguenos-payment":{
+  },"flex-layout.row#payment":{
     "children":[
-      "vtex.menu@2.x:menu#siguenos",
       "vtex.menu@2.x:menu#aceptamosm"
+    ]
+  },
+  "flex-layout.row#siguenos":{
+    "children":[
+      "vtex.menu@2.x:menu#siguenos"
+      
     ],"props":{
       "preserveLayoutOnMobile":true
     }
