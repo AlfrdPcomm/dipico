@@ -3,12 +3,14 @@
 }
 
 .container :global(.vtex-modal-layout-0-x-triggerContainer) {
-  opacity: 0;
-  transition: opacity 200ms ease-in-out;
+  border: 1px solid #034094;
+  border-radius: 5px;
+  text-align: center;
+  width: 100%;
 }
 
 .container:hover :global(.vtex-modal-layout-0-x-triggerContainer) {
-  opacity: 1;
+  background-color: #00aeb2;
 }
 
 @media screen and (max-width: 40em) {

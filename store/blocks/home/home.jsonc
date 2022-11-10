@@ -177,7 +177,10 @@
   },
   "list-context.product-list#demo1": {
     "title":"Lista de productos Sugeridos 1",
-    "blocks": ["product-summary.shelf"],
+    "blocks": [
+      "product-summary.shelf"
+      
+    ],
     "children": ["slider-layout#demo-products"],
     "props": {
       "collection":"139",
@@ -345,7 +348,7 @@
      },
      "list-context.product-list#sug2": {
       "title":"Lista de productos Sugeridos 2",
-      "blocks": ["product-summary.shelf"],
+      "blocks": ["product-summary.shelf#shelfquick"],
       "children": ["slider-layout#sug2"]
     },
     "slider-layout#sug2": {

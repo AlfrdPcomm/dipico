@@ -99,5 +99,53 @@
       "text": "Ver Producto",
       "onClickBehavior":"go-to-product-page"
     }
+  },
+//---------------- Shelf con quick view---------------------
+"product-summary.shelf#shelfquick": {
+  "children": [
+    "stack-layout#prodsum",
+    "product-summary-name",
+    "flex-layout.col#productRating",
+    "product-summary-space",
+    "product-list-price#summary",
+    "flex-layout.row#selling-price-savings",
+    "flex-layout.row#savings-summary",
+    "flex-layout.row#botones"
+     
+  ]
+},
+
+"flex-layout.row#botones":{
+  "children":[
+    "flex-layout.col#quick",
+    "flex-layout.col#btnver"
+  ]
+},
+"flex-layout.col#quick":{
+  "children":[
+    //"modal-trigger#quickview"
+    "add-to-cart-button#carrito"
+  ],"props":{
+    "blockClass":["colrowbtn","colright"]
   }
+},
+"add-to-cart-button#carrito":{
+  "props":{
+    "onClickBehavior":"add-to-cart",
+    "blockClass":"addCart"
+  }
+},
+"flex-layout.col#btnver":{
+  "children":[
+    "add-to-cart-button#btnsummary"   
+  ],"props":{
+    "blockClass":"colrowbtn"
+  }
+}
+
+
+
+
+
+//---------------- Shelf con quick view---------------------
 }

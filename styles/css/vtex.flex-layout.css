@@ -92,3 +92,7 @@
 .flexRow--addToCartRow {
   padding-bottom: 1rem;
 }
+
+.flexColChild--colrowbtn{
+  padding: 2px;
+}

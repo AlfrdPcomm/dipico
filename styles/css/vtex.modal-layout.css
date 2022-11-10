@@ -59,12 +59,12 @@
 }
 
 .contentContainer--quickviewContent {
-  padding: 2.5rem 0 2.5rem 2rem;
+  padding: 2.5rem 1.5rem 2.5rem 2rem;
   overflow-x: hidden;
 }
 
 .triggerContainer--quickview {
-  padding: .75rem;
+  padding: .5rem;
 }
 
 .triggerContainer {

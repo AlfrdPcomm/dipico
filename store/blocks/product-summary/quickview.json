@@ -1,11 +1,16 @@
 {
   "modal-trigger#quickview": {
     "children": [
-      "icon-expand",
+      "image#carrito",
       "modal-layout#quickview"
     ],
     "props": {
       "blockClass": "quickview"
+    }
+  },
+  "image#carrito":{
+    "props":{
+      "src":"assets/poseidon.png"
     }
   },
 
@@ -38,7 +43,7 @@
     "children": [
       "flex-layout.row#list-price-savings",
       "flex-layout.row#selling-price",
-      "product-installments"
+      "product-description"
     ]
   },
   "modal-actions#quickview": {
@@ -93,7 +98,7 @@
         "variant": "secondary"
       },
       "displayMode": "button",
-      "label": "View details",
+      "label": "Ver detalles",
       "href": "/{slug}/p"
     }
   },
@@ -137,7 +142,8 @@
   "product-images#quickview" : {
     "props": {
       "blockClass": "quickview",
-      "showNavigationArrows": true
+      "showNavigationArrows": true,
+      "aspecRatio": "16:9"
     }
   }
 }

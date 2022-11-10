@@ -437,3 +437,38 @@
   min-width: 89px;
 }
 }
+
+
+:global(.vtex-rich-text-0-x-link--telefonos){
+  text-decoration: none;
+}
+
+:global(.vtex-store-components-3-x-productImagesGallerySlide--quickview){
+  width: 65% !important;
+  padding-top: 15px;
+}
+
+:global(.vtex-add-to-cart-button-0-x-buttonText--addCart){
+  font-size: 0;
+}
+
+:global(.vtex-add-to-cart-button-0-x-buttonText--addCart)::before{
+  content: url(assets/poseidon.png);
+  
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--colright)
+  :global(.vtex-button){
+    background-color: #FFFFFF !important;
+    height: 45px;
+  } 
+
+:global(.vtex-flex-layout-0-x-flexColChild--colright)
+  :global(.vtex-button):hover{
+    background-color: #00AEB2 !important;
+    height: 45px;
+  } 
+
+ :global(.vtex-product-highlights-2-x-productHighlightWrapper--collection):nth-child(odd){
+  margin-top: 29px;
+ }

@@ -26,7 +26,8 @@
   },
   "rich-text#tel":{
     "props":{
-      "text": "33 3126 5001 \n 33 3585 6311 \n 33 3853 8128 \n 33 3280 0054",      "blockClass":"txtfooter"
+      "text": "[33 3126 5001](tel:3331265001) \n [33 3585 6311](tel:3335856311) \n [33 3853 8128](tel:3338538128) \n [33 3280 0054](tel:3332800054)",      
+      "blockClass":["txtfooter","telefonos"]
     }
   },
   "rich-text#email":{
