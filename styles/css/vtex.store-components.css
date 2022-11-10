@@ -469,6 +469,3 @@
     height: 45px;
   } 
 
- :global(.vtex-product-highlights-2-x-productHighlightWrapper--collection):nth-child(odd){
-  margin-top: 29px;
- }
