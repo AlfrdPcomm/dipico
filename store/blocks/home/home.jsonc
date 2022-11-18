@@ -112,10 +112,12 @@
 
   "responsive-layout.desktop":{
     "children":[
+      "flex-layout.row#promos",
       "list-context.image-list#principal",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "__fold__.experimentalLazyAssets",
+      
       "flex-layout.row#deals",
       "rich-text#titulo-terecomendamos",
       "flex-layout.row#terecomendamos",
@@ -152,6 +154,88 @@
       ]
     }
   },
+  "flex-layout.row#promos":{
+    "children":[
+      "flex-layout.col#contbf"
+
+    ],"props":{
+      "marginTop":5,
+      "marginBottom":5
+    }
+  },
+  "flex-layout.col#contbf":{
+    "children":[
+      "flex-layout.row#titdesc"
+    ]
+  },
+  "flex-layout.row#titdesc":{
+    "children":[
+      "flex-layout.col#20desc",
+      "flex-layout.col#buenfin",
+      "flex-layout.col#bf",
+      "flex-layout.col#buenfin",
+      "flex-layout.col#15desc"
+    ]
+  },
+  "flex-layout.col#bf":{
+    "children":[
+      "rich-text#bf"
+    ],"props":{
+      "horizontalAlign":"center",
+      "verticalAlign":"middle"
+    }
+  },
+  "rich-text#bf":{
+    "props":{
+      "text":"## ¡Aprovecha!"
+    }
+  },
+  "flex-layout.col#buenfin":{
+    "children":[
+      "image#bfin"
+    ],"props":{
+      "horizontalAlign": "center",
+      "verticalAlign":"middle"
+    }
+  },
+  "image#bfin":{
+    "props":{
+      "src":"assets/bfin01.png"
+    }
+  },
+  "flex-layout.col#15desc":{
+    "children":[
+      "image#15desc"
+    ],"props":{
+      "horizontalAlign": "center",
+      "verticalAlign":"middle"
+    }
+  },
+  "image#15desc":{
+    "props":{
+      "src":"assets/desc02.png",
+      "link":{
+        "url":"/143?map=productClusterIds"
+      }
+    }
+  },
+  "flex-layout.col#20desc":{
+    "children":[
+      "image#20desc"
+    ],"props":{
+      "horizontalAlign": "center",
+      "verticalAlign":"middle"
+    }
+  },
+  "image#20desc":{
+    "props":{
+      "src":"assets/desc03.png",
+      "link":{
+        "url":"/142?map=productClusterIds"
+      }
+    }
+  },
+
   "slider-layout#principal-images": {
     "props": {
       "itemsPerPage": {
