@@ -10,12 +10,13 @@
 // ------------------------------ Phone-------------------------------
   "responsive-layout.phone":{
     "children":[
+      "flex-layout.row#offermob",
       "list-context.image-list#principal",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
-      "__fold__.experimentalLazyAssets",
       "flex-layout.row#dealsmob",
       "rich-text#titulo-terecomendamos",
+      "__fold__.experimentalLazyAssets",
       "flex-layout.row#terecomendamos",
       "rich-text#rectit2",
       "flex-layout.row#sugerencia1",
@@ -28,6 +29,35 @@
       "back-to-top-button"
     ]
   },
+  "flex-layout.row#offermob":{
+    "children":[
+      "slider-layout#offmob"
+    ]
+  },
+  "slider-layout#offmob":{
+    "children":[
+      "flex-layout.col#bf",
+      "flex-layout.col#buenfin",
+      "flex-layout.col#20desc",
+      "flex-layout.col#15desc",
+      "flex-layout.col#buenfin"
+    ],"props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots":"never",
+      "blockClass": "carousel",
+      "autoplay":{
+        "timeout":3000,
+        "stopOnHover":true
+      }
+    }
+  },
+
   "flex-layout.row#dealsmob":{
     "children":[
       "slider-layout#deals"
@@ -91,6 +121,7 @@
 
   "responsive-layout.tablet":{
     "children":[
+      "slider-layout#offmob",
       "list-context.image-list#principal",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
