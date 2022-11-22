@@ -10,7 +10,7 @@
 // ------------------------------ Phone-------------------------------
   "responsive-layout.phone":{
     "children":[
-      "flex-layout.row#offermob",
+      //"flex-layout.row#offermob",
       "list-context.image-list#principal",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
@@ -121,7 +121,7 @@
 
   "responsive-layout.tablet":{
     "children":[
-      "slider-layout#offmob",
+      //"slider-layout#offmob",
       "list-context.image-list#principal",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
@@ -143,7 +143,7 @@
 
   "responsive-layout.desktop":{
     "children":[
-      "flex-layout.row#promos",
+     // "flex-layout.row#promos",
       "list-context.image-list#principal",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
