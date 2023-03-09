@@ -67,6 +67,7 @@
   "search-result-layout.desktop": {
     "children": [
       "flex-layout.row#bannerArea1",
+      "flex-layout.row#srchImage",
       "flex-layout.row#searchbread",
       "flex-layout.row#result",
       "back-to-top-button"
@@ -76,6 +77,17 @@
       "pagination": "infinity-scroll",
       "preventRouteChange": false,
       "defaultGalleryLayout": "grid"
+    }
+  },
+  "flex-layout.row#srchImage":{
+    "children":[
+      "image#search"
+    ]
+  },
+  "image#search":{
+    "props":{
+      "src":""
+
     }
   },
   "flex-layout.row#searchbread": {
