@@ -596,7 +596,8 @@
     "children":[      
       "flex-layout.col#marca2",
       "flex-layout.col#marca1",
-      "flex-layout.col#marca3"
+      "flex-layout.col#marca3",
+      "flex-layout.col#marca4"
     ],"props":{
       "fullWdith":true,
       "colSizing": "equal",
@@ -640,6 +641,7 @@
     "children":[
       "image#byp"
     ],"props":{
+      "paddingLeft": 8,
       "verticalAlign":"middle",
       "horizontalAlign":"center"
     }
@@ -652,39 +654,22 @@
       }
     }
   },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  "flex-layout.col#marca4":{
+    "children":[
+      "image#pennsy"
+    ],"props":{
+      "verticalAlign":"middle",
+      "horizontalAlign":"center"
+    }
+  },"image#pennsy":{
+    "props":{
+      "maxHeight":100,
+      "src":"assets/pennsylvania.png",
+      "link":{
+        "url":"/pennsylvania"
+      }
+    }
+  },
 
 
   "menu-item#category-apparel-clothing": {
