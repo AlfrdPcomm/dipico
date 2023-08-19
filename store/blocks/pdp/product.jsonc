@@ -12,17 +12,11 @@
       "rich-text#titulo-terecomendamos",
       "flex-layout.row#terecomendamos#prod",
       "flex-layout.row#revs",
-      "back-to-top-button",
-      "tintometric"
+      "back-to-top-button"
 
     ]
   },
 
-  "tintometric":{
-    "props":{
-      "blockClass": "tintometric-pdp"
-    }
-  },
 
   "flex-layout.row#terecomendamos#prod":{
     "children":[
